@@ -1,0 +1,15 @@
+<http://purl.org/spar/fabio/MastersThesis> <http://purl.org/vocab/vann/example> "\n        :my-master-thesis a fabio:MastersThesis ;\n            dcterms:title 'Linked Data analysis in the library science domain'@en ;\n            dcterms:description 'A thesis reporting the results of a period of study, submitted in partial fulfillment of the requirements for a master's degree.'@en .\n    " .
+<http://purl.org/spar/fabio/MastersThesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/MastersThesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+<http://purl.org/spar/fabio/MastersThesis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:nea40cf5453a74d20979b31112366b909b157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:nea40cf5453a74d20979b31112366b909b156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nea40cf5453a74d20979b31112366b909b157 .
+<http://purl.org/spar/fabio/MastersThesis> <http://www.w3.org/2000/01/rdf-schema#label> "master's thesis"@en .
+<http://purl.org/spar/fabio/MastersThesis> <http://www.w3.org/2000/01/rdf-schema#comment> "A thesis reporting a research project undertaken as part of a graduate course of education leading to a master's degree."@en .
+_:nea40cf5453a74d20979b31112366b909b154 <http://www.w3.org/2002/07/owl#members> _:nea40cf5453a74d20979b31112366b909b155 .
+_:nea40cf5453a74d20979b31112366b909b155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/BachelorsThesis> .
+_:nea40cf5453a74d20979b31112366b909b155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nea40cf5453a74d20979b31112366b909b156 .
+_:nea40cf5453a74d20979b31112366b909b156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/DoctoralThesis> .
+<http://purl.org/spar/fabio/MastersThesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Thesis> .
+_:nea40cf5453a74d20979b31112366b909b157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/MastersThesis> .
+_:nea40cf5453a74d20979b31112366b909b154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .

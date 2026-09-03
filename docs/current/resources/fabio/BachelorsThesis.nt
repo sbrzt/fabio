@@ -1,0 +1,15 @@
+_:nea40cf5453a74d20979b31112366b909b157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://www.w3.org/2000/01/rdf-schema#label> "bachelor's thesis"@en .
+_:nea40cf5453a74d20979b31112366b909b156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nea40cf5453a74d20979b31112366b909b157 .
+_:nea40cf5453a74d20979b31112366b909b154 <http://www.w3.org/2002/07/owl#members> _:nea40cf5453a74d20979b31112366b909b155 .
+_:nea40cf5453a74d20979b31112366b909b155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/BachelorsThesis> .
+_:nea40cf5453a74d20979b31112366b909b155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nea40cf5453a74d20979b31112366b909b156 .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Thesis> .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:nea40cf5453a74d20979b31112366b909b156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/DoctoralThesis> .
+_:nea40cf5453a74d20979b31112366b909b157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/MastersThesis> .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://purl.org/vocab/vann/example> "\n        :my-bachelors-thesis a fabio:BachelorsThesis ;\n            dcterms:title 'Sorting Algorithms Performance Analysis in Python'@en ;\n            dcterms:description 'A thesis submitted for the degree of Bachelor of Science in Computer Science.'@en .\n    " .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://www.w3.org/2000/01/rdf-schema#comment> "A thesis reporting a research project undertaken as part of an undergraduate course of education leading to a bachelor's degree."@en .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+_:nea40cf5453a74d20979b31112366b909b154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+<http://purl.org/spar/fabio/BachelorsThesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
