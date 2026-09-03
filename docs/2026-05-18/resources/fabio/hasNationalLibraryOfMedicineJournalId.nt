@@ -1,17 +1,17 @@
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
-_:n584f50b3c9f447dda23e912c314ed7a7b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-_:n584f50b3c9f447dda23e912c314ed7a7b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n74c2f1bcb5f8430d85cfb3f233e5a831b57 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
-<http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#range> _:n584f50b3c9f447dda23e912c314ed7a7b56 .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Endeavour> .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#label> "has National Library of Medicine journal identifier"@en .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> .
-_:n584f50b3c9f447dda23e912c314ed7a7b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n584f50b3c9f447dda23e912c314ed7a7b57 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#range> _:n74c2f1bcb5f8430d85cfb3f233e5a831b56 .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-_:n584f50b3c9f447dda23e912c314ed7a7b57 <http://www.w3.org/2001/XMLSchema#pattern> "[0-9]+" .
-_:n584f50b3c9f447dda23e912c314ed7a7b56 <http://www.w3.org/2002/07/owl#withRestrictions> _:n584f50b3c9f447dda23e912c314ed7a7b58 .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.nlm.nih.gov/> .
+<http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b57 <http://www.w3.org/2001/XMLSchema#pattern> "[0-9]+" .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b56 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b56 <http://www.w3.org/2002/07/owl#withRestrictions> _:n74c2f1bcb5f8430d85cfb3f233e5a831b58 .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://purl.org/vocab/vann/example> "\n        :my-journal a fabio:Journal ;\n            fabio:hasNationalLibraryOfMedicineJournalId '9604648' .\n    " .
-_:n584f50b3c9f447dda23e912c314ed7a7b56 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> .
 <http://purl.org/spar/fabio/hasNationalLibraryOfMedicineJournalId> <http://www.w3.org/2000/01/rdf-schema#comment> "An internal identifier for journals available from the National Library of Medicine repository."@en .

@@ -7,7 +7,7 @@
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 
 fabio:hasSequenceIdentifier a owl:DatatypeProperty ;
-    rdfs:label "has number"@en ;
+    rdfs:label "has sequence identifier"@en ;
     vann:example """
         :my-journal-article a fabio:JournalArticle ;
             fabio:hasSequenceIdentifier '1' .

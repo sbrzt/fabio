@@ -28,16 +28,16 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b143"
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b143"
+      },
+      {
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b148"
+      },
+      {
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b149"
       },
       {
         "@id": "http://purl.org/vocab/frbr/core#Expression"
-      },
-      {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b149"
-      },
-      {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b148"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b143",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b143",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -61,17 +61,17 @@
       {
         "@list": [
           {
-            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b144"
+            "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b144"
           },
           {
-            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b145"
+            "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b145"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b144",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b144",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b145",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b145",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -103,23 +103,7 @@
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b149",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://purl.org/spar/fabio/Work"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#realizationOf"
-      }
-    ]
-  },
-  {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b148",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b148",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -131,6 +115,22 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://purl.org/vocab/frbr/core#embodiment"
+      }
+    ]
+  },
+  {
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b149",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/Work"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#realizationOf"
       }
     ]
   }

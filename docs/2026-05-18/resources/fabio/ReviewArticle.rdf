@@ -6,11 +6,16 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b47">
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Review"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/ReviewArticle">
     <rdfs:comment xml:lang="en">An article that contains a review.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b47"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b47"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:label xml:lang="en">review article</rdfs:label>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <vann:example>
@@ -20,10 +25,5 @@
             dcterms:description 'An article containing a review.'@en .
     </vann:example>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b47">
-    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Review"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
   </rdf:Description>
 </rdf:RDF>

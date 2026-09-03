@@ -7,8 +7,8 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/NewsItem">
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b114"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b114"/>
     <rdfs:label xml:lang="en">news item</rdfs:label>
     <vann:example>
         :my-news-item a fabio:NewsItem ;
@@ -21,9 +21,9 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b114">
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b114">
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewsReport"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
   </rdf:Description>
 </rdf:RDF>

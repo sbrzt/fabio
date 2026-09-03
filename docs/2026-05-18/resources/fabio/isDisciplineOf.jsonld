@@ -33,7 +33,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b78"
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b78"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b78",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b78",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],

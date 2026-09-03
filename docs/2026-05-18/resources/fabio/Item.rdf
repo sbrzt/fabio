@@ -7,25 +7,29 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b126">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b129">
+    <rdf:first rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b127"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b127">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b127">
     <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b130">
-    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b128">
+    <rdf:first rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b126"/>
+    <rdf:rest rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b129"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b125">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b128"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b130">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Manifestation"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplarOf"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/Item">
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b125"/>
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b130"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:label xml:lang="en">item</rdfs:label>
     <vann:example>
@@ -40,19 +44,15 @@ A `fabio:Item` can only have part or be part of another `fabio:Item`. Moreover, 
 
 An example of a `fabio:Item` is a printed copy of a journal article on your desk, or a PDF file of that article that you purchased from a publisher and that now resides in digital form on your computer hard drive.
 </skos:note>
-    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <rdfs:comment xml:lang="en">A subclass of FRBR Item, restricted to exemplars of `fabio:Manifestation`.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b130"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b125"/>
+    <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b129">
-    <rdf:first rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b127"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b128">
-    <rdf:first rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b126"/>
-    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b129"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b125">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:intersectionOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b128"/>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b126">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Item"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
   </rdf:Description>
 </rdf:RDF>
