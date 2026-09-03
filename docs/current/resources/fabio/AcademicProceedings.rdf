@@ -6,12 +6,17 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/ProceedingsPaper"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/AcademicProceedings">
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b33"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ExpressionCollection"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b88"/>
     <rdfs:comment xml:lang="en">A document containing the programme and collected papers, or their abstracts, presented at an academic meeting.</rdfs:comment>
     <vann:example>
         :my-academic-proceedings a fabio:AcademicProceedings ;
@@ -19,10 +24,5 @@
             frbr:part :my-proceedings-paper .
     </vann:example>
     <rdfs:label xml:lang="en">academic proceedings</rdfs:label>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b33">
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/ProceedingsPaper"/>
   </rdf:Description>
 </rdf:RDF>

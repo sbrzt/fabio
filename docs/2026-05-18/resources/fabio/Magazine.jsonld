@@ -31,7 +31,7 @@
         "@id": "http://purl.org/spar/fabio/Periodical"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b92"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b71"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b92",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b71",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

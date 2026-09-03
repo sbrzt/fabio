@@ -301,10 +301,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Manifestation"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b91"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b36"
+        "@id": "http://purl.org/spar/fabio/Manifestation"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -319,7 +319,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b36",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b91",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -439,10 +439,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b93"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b48"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -452,7 +452,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b48",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b93",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -542,10 +542,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b104"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b141"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -555,7 +555,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b141",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b104",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -599,10 +599,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Manifestation"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b100"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b60"
+        "@id": "http://purl.org/spar/fabio/Manifestation"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -612,7 +612,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b60",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b100",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -700,10 +700,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Book"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b44"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b128"
+        "@id": "http://purl.org/spar/fabio/Book"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -713,7 +713,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b128",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b44",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -1039,7 +1039,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b21"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b1"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
@@ -1060,7 +1060,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b21",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b1",
     "@type": [
       "http://www.w3.org/2000/01/rdf-schema#Datatype"
     ],
@@ -1109,10 +1109,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b111"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b133"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -1122,7 +1122,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b133",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b111",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -1227,10 +1227,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b103"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b135"
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -1240,7 +1240,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b135",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b103",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -1501,10 +1501,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Editorial"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b25"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b88"
+        "@id": "http://purl.org/spar/fabio/Editorial"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -1514,7 +1514,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b88",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b25",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -1802,10 +1802,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b18"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b73"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -1815,7 +1815,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b73",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b18",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -2167,16 +2167,16 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b118"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b119"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b120"
+      },
+      {
         "@id": "http://purl.org/vocab/frbr/core#Manifestation"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b97"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b102"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b103"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -2192,57 +2192,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b97",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2002/07/owl#intersectionOf": [
-      {
-        "@list": [
-          {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b98"
-          },
-          {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b99"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b98",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#Manifestation"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#part"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b99",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#Manifestation"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#partOf"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b102",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b118",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -2258,7 +2208,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b103",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b119",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -2270,6 +2220,56 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://purl.org/vocab/frbr/core#exemplar"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b120",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2002/07/owl#intersectionOf": [
+      {
+        "@list": [
+          {
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b121"
+          },
+          {
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b122"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b121",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#Manifestation"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#part"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b122",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#Manifestation"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#partOf"
       }
     ]
   },
@@ -2388,10 +2388,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Article"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b24"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b87"
+        "@id": "http://purl.org/spar/fabio/Article"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -2401,7 +2401,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b87",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b24",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -2463,8 +2463,8 @@
   {
     "@id": "http://purl.org/spar/fabio/hard-drive",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -2857,44 +2857,6 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/fabio/PatentApplication",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://purl.org/vocab/vann/example": [
-      {
-        "@value": "\n        :my-patent-application a fabio:PatentApplication ;\n            dcterms:title 'Application for patenting an AI-based ice cream generator'@en ;\n            dcterms:creator :john-doe ;\n            frbr:realization :my-patent-application-document ;\n            dcterms:description 'A formal request for the grant of a patent for an invention.'@en .\n    "
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A formal disclosure of a new invention, made in application for a patent."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://purl.org/spar/fabio/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "patent application"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://purl.org/spar/fabio/Specification"
-      }
-    ],
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
-      {
-        "@id": "http://purl.org/linked-data/registry#statusStable"
-      }
-    ]
-  },
-  {
     "@id": "http://purl.org/spar/fabio/Index",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -2933,6 +2895,44 @@
     ]
   },
   {
+    "@id": "http://purl.org/spar/fabio/PatentApplication",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-patent-application a fabio:PatentApplication ;\n            dcterms:title 'Application for patenting an AI-based ice cream generator'@en ;\n            dcterms:creator :john-doe ;\n            frbr:realization :my-patent-application-document ;\n            dcterms:description 'A formal request for the grant of a patent for an invention.'@en .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A formal disclosure of a new invention, made in application for a patent."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/fabio/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "patent application"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://purl.org/spar/fabio/Specification"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
     "@id": "http://www.w3.org/2001/XMLSchema#gYear",
     "@type": [
       "http://www.w3.org/2000/01/rdf-schema#Datatype"
@@ -2941,8 +2941,8 @@
   {
     "@id": "http://purl.org/spar/fabio/dvd",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -2962,15 +2962,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
+        "@value": "DVD"
+      },
+      {
         "@language": "en",
         "@value": "digital versatile disc"
       },
       {
         "@language": "en",
         "@value": "digital video disc"
-      },
-      {
-        "@value": "DVD"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -3008,10 +3008,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/NewsItem"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b19"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b74"
+        "@id": "http://purl.org/spar/fabio/NewsItem"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -3021,7 +3021,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b74",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b19",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -3287,27 +3287,6 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b150",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
-    ],
-    "http://www.w3.org/2002/07/owl#members": [
-      {
-        "@list": [
-          {
-            "@id": "http://purl.org/spar/fabio/AuthorityFile"
-          },
-          {
-            "@id": "http://purl.org/spar/fabio/Taxonomy"
-          },
-          {
-            "@id": "http://purl.org/spar/fabio/Thesaurus"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "@id": "http://purl.org/spar/fabio/RetractionNotice",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -3336,10 +3315,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Comment"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b46"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b131"
+        "@id": "http://purl.org/spar/fabio/Comment"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -3349,7 +3328,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b131",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b46",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -3479,10 +3458,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/NewsItem"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b70"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b90"
+        "@id": "http://purl.org/spar/fabio/NewsItem"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -3492,7 +3471,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b90",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b70",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -3536,10 +3515,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Editorial"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b27"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b94"
+        "@id": "http://purl.org/spar/fabio/Editorial"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -3549,7 +3528,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b94",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b27",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -3771,16 +3750,16 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b5"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b6"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b7"
+      },
+      {
         "@id": "http://purl.org/spar/fabio/WorkCollection"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b41"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b42"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b43"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -3790,7 +3769,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b41",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b5",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -3806,7 +3785,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b42",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b6",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -3822,7 +3801,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b43",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b7",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -3834,27 +3813,6 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://purl.org/vocab/frbr/core#realization"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b154",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
-    ],
-    "http://www.w3.org/2002/07/owl#members": [
-      {
-        "@list": [
-          {
-            "@id": "http://purl.org/spar/fabio/BachelorsThesis"
-          },
-          {
-            "@id": "http://purl.org/spar/fabio/DoctoralThesis"
-          },
-          {
-            "@id": "http://purl.org/spar/fabio/MastersThesis"
-          }
-        ]
       }
     ]
   },
@@ -3981,7 +3939,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b25"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b56"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
@@ -4001,7 +3959,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b25",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b56",
     "@type": [
       "http://www.w3.org/2000/01/rdf-schema#Datatype"
     ],
@@ -4014,14 +3972,14 @@
       {
         "@list": [
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b26"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b57"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b26",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b57",
     "http://www.w3.org/2001/XMLSchema#pattern": [
       {
         "@value": "[0-9]+"
@@ -4057,10 +4015,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b76"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b139"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4070,7 +4028,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b139",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b76",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4339,10 +4297,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b108"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b89"
+        "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4352,7 +4310,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b89",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b108",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4472,10 +4430,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Manifestation"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b28"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b104"
+        "@id": "http://purl.org/spar/fabio/Manifestation"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4485,7 +4443,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b104",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b28",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4529,10 +4487,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b114"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b107"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4542,7 +4500,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b107",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b114",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4586,10 +4544,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Notebook"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b16"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b57"
+        "@id": "http://purl.org/spar/fabio/Notebook"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4599,7 +4557,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b57",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b16",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4724,10 +4682,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b73"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b106"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4737,7 +4695,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b106",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b73",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4781,10 +4739,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/StorageMedium"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b131"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b61"
+        "@id": "http://purl.org/spar/fabio/StorageMedium"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4794,7 +4752,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b61",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b131",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -4924,10 +4882,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b116"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b117"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -4937,7 +4895,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b117",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b116",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -5025,10 +4983,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Work"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b77"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b148"
+        "@id": "http://purl.org/spar/fabio/Work"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -5038,7 +4996,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b148",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b77",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -5056,8 +5014,8 @@
   {
     "@id": "http://purl.org/spar/fabio/cd",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -5120,7 +5078,7 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b118"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b36"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -5130,7 +5088,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b118",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b36",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -5141,14 +5099,14 @@
             "@id": "http://purl.org/spar/fabio/Expression"
           },
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b119"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b37"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b119",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b37",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -5159,12 +5117,12 @@
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b120"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b38"
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b120",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b38",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -5210,10 +5168,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b101"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b63"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -5223,7 +5181,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b63",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b101",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -5522,10 +5480,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b12"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b52"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -5535,7 +5493,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b52",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b12",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -5748,10 +5706,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Series"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b10"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b46"
+        "@id": "http://purl.org/spar/fabio/Series"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -5772,7 +5730,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b46",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b10",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -5986,6 +5944,49 @@
     ]
   },
   {
+    "@id": "http://purl.org/spar/fabio/hasIssnL",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-journal-article a fabio:JournalArticle ;\n            fabio:hasIssnL '1234-5678' .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A linking International Standard Serial Number."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/fabio/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "has ISSN-L"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.issn.org/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://purl.org/dc/terms/identifier"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.org/spar/fabio/hasURL",
     "@type": [
       "http://www.w3.org/2002/07/owl#DatatypeProperty"
@@ -6020,49 +6021,6 @@
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
         "@id": "http://www.w3.org/2001/XMLSchema#anyURI"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-      {
-        "@id": "http://purl.org/dc/terms/identifier"
-      }
-    ],
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
-      {
-        "@id": "http://purl.org/linked-data/registry#statusStable"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/spar/fabio/hasIssnL",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#DatatypeProperty"
-    ],
-    "http://purl.org/vocab/vann/example": [
-      {
-        "@value": "\n        :my-journal-article a fabio:JournalArticle ;\n            fabio:hasIssnL '1234-5678' .\n    "
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A linking International Standard Serial Number."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://purl.org/spar/fabio/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "has ISSN-L"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.issn.org/"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
@@ -6143,10 +6101,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b75"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b126"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -6156,7 +6114,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b126",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b75",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -6310,8 +6268,8 @@
   {
     "@id": "http://purl.org/spar/fabio/digital-magnetic-tape",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -6408,10 +6366,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b117"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b71"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -6421,7 +6379,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b71",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b117",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -6503,6 +6461,27 @@
     ]
   },
   {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b150",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/AuthorityFile"
+          },
+          {
+            "@id": "http://purl.org/spar/fabio/Taxonomy"
+          },
+          {
+            "@id": "http://purl.org/spar/fabio/Thesaurus"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "@id": "http://purl.org/spar/fabio/NewspaperEditorial",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -6531,10 +6510,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Editorial"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b31"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b110"
+        "@id": "http://purl.org/spar/fabio/Editorial"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -6544,7 +6523,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b110",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b31",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -6588,10 +6567,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b14"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b55"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -6601,7 +6580,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b55",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b14",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -6695,10 +6674,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b109"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b95"
+        "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -6708,7 +6687,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b95",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b109",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -6872,10 +6851,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b15"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b56"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -6885,7 +6864,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b56",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b15",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -6979,8 +6958,8 @@
   {
     "@id": "http://purl.org/spar/fabio/cloud",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -7038,10 +7017,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b49"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b140"
+        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -7051,7 +7030,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b140",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b49",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7095,10 +7074,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b97"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b125"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -7108,7 +7087,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b125",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b97",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7330,10 +7309,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b29"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b105"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -7343,7 +7322,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b105",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b29",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7546,13 +7525,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b132"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b137"
+      },
+      {
         "@id": "http://purl.org/vocab/frbr/core#Work"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b142"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b147"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -7568,7 +7547,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b142",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b132",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -7576,17 +7555,17 @@
       {
         "@list": [
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b143"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b133"
           },
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b144"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b134"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b143",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b133",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7602,7 +7581,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b144",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b134",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7618,7 +7597,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b147",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b137",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7782,10 +7761,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/NewsItem"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b32"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b112"
+        "@id": "http://purl.org/spar/fabio/NewsItem"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -7795,7 +7774,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b112",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b32",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -7895,8 +7874,8 @@
   {
     "@id": "http://purl.org/spar/fabio/floppy-disk",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -8031,12 +8010,12 @@
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b28"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b138"
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b28",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b138",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -8141,10 +8120,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b102"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b130"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8154,7 +8133,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b130",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b102",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -8198,10 +8177,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b35"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b115"
+        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8211,7 +8190,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b115",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b35",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -8255,10 +8234,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/PeriodicalVolume"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b96"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b91"
+        "@id": "http://purl.org/spar/fabio/PeriodicalVolume"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8268,7 +8247,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b91",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b96",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -8312,10 +8291,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/VocabularyDocument"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b33"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b113"
+        "@id": "http://purl.org/spar/fabio/VocabularyDocument"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8331,7 +8310,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b113",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b33",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -8375,10 +8354,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/AcademicProceedings"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b50"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b149"
+        "@id": "http://purl.org/spar/fabio/AcademicProceedings"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8388,7 +8367,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b149",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b50",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -8432,10 +8411,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/ExpressionCollection"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b115"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b116"
+        "@id": "http://purl.org/spar/fabio/ExpressionCollection"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8445,7 +8424,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b116",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b115",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -8495,6 +8474,27 @@
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
       {
         "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b154",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/BachelorsThesis"
+          },
+          {
+            "@id": "http://purl.org/spar/fabio/DoctoralThesis"
+          },
+          {
+            "@id": "http://purl.org/spar/fabio/MastersThesis"
+          }
+        ]
       }
     ]
   },
@@ -8909,10 +8909,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b22"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b77"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -8922,7 +8922,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b77",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b22",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -9252,10 +9252,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Article"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b26"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b93"
+        "@id": "http://purl.org/spar/fabio/Article"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -9265,7 +9265,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b93",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b26",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -9315,10 +9315,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Periodical"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b71"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b92"
+        "@id": "http://purl.org/spar/fabio/Periodical"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -9334,7 +9334,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b92",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b71",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -9416,10 +9416,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/ExpressionCollection"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b66"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b47"
+        "@id": "http://purl.org/spar/fabio/ExpressionCollection"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -9429,7 +9429,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b47",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b66",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -9473,10 +9473,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/ExpressionCollection"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b88"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b33"
+        "@id": "http://purl.org/spar/fabio/ExpressionCollection"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -9486,7 +9486,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b33",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b88",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -9845,8 +9845,8 @@
   {
     "@id": "http://purl.org/spar/fabio/solid-state-memory",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -9987,13 +9987,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b89"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b90"
+      },
+      {
         "@id": "http://purl.org/spar/fabio/Item"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b34"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b35"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -10014,7 +10014,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b34",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b89",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -10030,7 +10030,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b35",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b90",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -10173,7 +10173,7 @@
     ],
     "http://purl.org/dc/terms/description": [
       {
-        "@value": "\nThe **_FRBR-aligned Bibliographic Ontology (FaBiO)_** is an ontology for recording and publishing on the Semantic Web descriptions of entities that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define such bibliographic references. \nFaBiO entities are primarily textual publications such as books, magazines, newspapers and journals, and items of their content such as poems, conference papers and editorials. \nHowever, they also include blogs, web pages, datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also anthologies, catalogues and similar collections.\n\nFaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., FRBR, DC Terms, PRISM and SKOS. \nIn addition, FaBiO has been developed so to limit any restriction to its classes as well as the domains and ranges of its properties. \nThis flexibility has the great advantage of allowing FaBiO to be used together with other models.\n\nIn particular, FaBiO classes are structured according to the FRBR schema of Works, Expressions, Manifestations and Items. \nThe following Graffoo diagram shows additional properties that have been added to extends the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).\n\n![The architecture of FaBiO.](fabio.png)\n\nWith FaBiO, it thus becomes possible:\n\n* to write semantic descriptions of a wide variety of bibliographic objects, including conference papers (`fabio:ConferencePaper`), journal articles (`fabio:JournalArticle`), journal issues and volumes (`fabio:JournalIssue` and `fabio:JournalVolume`), using terms that closely resemble the language used in everyday speech by academics and publishers;\n* to employ FRBR categories (i.e., `fabio:Work`, `fabio:Expression`, `fabio:Manifestation` and `fabio:Item`, all subclasses of the related FRBR classes) to define clear separations between each part of the publishing process, which involves different people (authors, publishers, readers), depending on which aspect of the bibliographic entity we are considering: the high-level conceptualisation of the research paper, the version of record of that paper forming a journal article, the publication of the article in various formats, and the individual physical or electronic exemplars of the published article that people may read and own;\n* to include with ease elements from other vocabularies which describe particular entities involved in the publishing process that are not specified by FaBiO itself, such as those from FOAF for persons and organisations.\n\n## Examples of use\n\nIn the following subsections, we introduce some examples to showcase how to use FaBiO. \n\nThe prefixes that are used in all the examples provided below are defined as follows:\n\n    @prefix : <http://www.sparontologies.net/example/> .\n    @prefix application: <http://purl.org/NET/mediatypes/application/> .\n    @prefix co: <http://purl.org/co/> .\n    @prefix dbpedia: <http://dbpedia.org/resource/> .\n    @prefix dcterms: <http://purl.org/dc/terms/> .\n    @prefix fabio: <http://purl.org/spar/fabio/> .\n    @prefix facet: <http://link.springer.com/facet/> .\n    @prefix foaf: <http://xmlns.com/foaf/0.1/> .\n    @prefix frbr: <http://purl.org/vocab/frbr/core#> .\n    @prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .\n    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n### Describing a bibliographic entity\n\nFaBiO allows one to describe information related to a bibliographic entity such as the following one:\n\n* Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.\n\nFrom the previous reference we can extract the following information:\n\n1. the document is an academic research article – deducible from the journal in which it is published;\n2. Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, and Richard Benjamins are the authors of the article;\n3. the article was published in 2007;\n4. the article is titled `OPJK and DILIGENT: ontology modeling in a distributed environment`;\n5. it was published in the 2nd issue of the 15th volume of Artificial Intelligence and Law;\n6. the DOI of the article is `10.1007/s10506-007-9036-2`;\n7. the Print ISSN of the journal is `0924-8463`;\n8. the Online ISSN of the journal is `1572-8382`;\n9. the PDF version of the article was published online on May 31, 2007;\n10. the journal issue within which the printed version of the article was published bears the publication date June 2007;\n11. the page range of the article within the printed version is `171-186`;\n12. the publisher of the journal is Springer.\n\nBy using FaBiO entities, which also include part of the FRBR, DC Terms and PRISM vocabularies, it is possible to create a full description of all the aspects introduced by the aforementioned twelve points.\n\n    :opjk-and-diligent a fabio:ResearchPaper ;\n        dcterms:creator :casanovas , :casellas,\n            :tempich, :vrandecic, :benjamins ;\n        frbr:realization :version-of-record .\n\n    :version-of-record a fabio:JournalArticle ;\n        dcterms:title 'OPJK and DILIGENT: ontology\n            modeling in a distributed environment' ;\n        fabio:hasPublicationYear '2007'^^xsd:gYear ;\n        prism:doi '10.1007/s10506-007-9036-2' ;\n        frbr:embodiment :printed , :pdf ;\n        frbr:partOf :ai-and-law-15-2 .\n\n    :ai-and-law-15-2 a fabio:JournalIssue ;\n        prism:issueIdentifier '2' ;\n        frbr:embodiment :printed-issue ;\n        frbr:partOf :ai-and-law-15 .\n\n    :ai-and-law-15 a fabio:JournalVolume ;\n        prism:volume '15' ;\n        frbr:partOf :ai-and-law .\n\n    :ai-and-law a fabio:Journal ;\n        dcterms:title 'Artificial Intelligence and Law' .\n\n    :printed-issue a fabio:Paperback ;\n        dcterms:publisher :springer ;\n        prism:publicationDate '2007-06'^^xsd:gYearMonth ;\n        frbr:part :printed .\n\n    :printed a fabio:PrintObject ;\n        dcterms:publisher :springer ;\n        prism:publicationDate '2007-06'^^xsd:gYearMonth ;\n        prism:startingPage '171' ;\n        prism:endingPage '186' .\n\n    :pdf a fabio:DigitalManifestation ;\n        dcterms:publisher :springer ;\n        dcterms:format application:pdf ;\n        prism:publicationDate '2007-05-31'^^xsd:date .\n\n    :casanovas a foaf:Person ;\n        foaf:givenName 'Pompeu' ;\n        foaf:familyName 'Casanovas' .\n\n    :casellas a foaf:Person ;\n        foaf:givenName 'Nuria' ;\n        foaf:familyName 'Casellas' .\n\n    :tempich a foaf:Person ;\n        foaf:givenName 'Christoph' ;\n        foaf:familyName 'Tempich' .\n\n    :vrandecic a foaf:Person ;\n        foaf:givenName 'Denny' ;\n        foaf:familyName 'Vrandečić' .\n\n    :benjamins a foaf:Person ;\n        foaf:givenName 'Richard' ;\n        foaf:familyName 'Benjamins' .\n\n    :springer a foaf:Organization ;\n        foaf:name 'Springer' .\n\n### Specifying ordered lists of authors\n\nSometimes, it is important to keep track of the actual order the authors of a paper as they appear in the author list. \nThe usual approach is to use RDF collections for handling it. \nHowever, this choice can have several drawbacks, first of all that it is not a fully OWL 2 DL compliant way of modelling ordered items – and this could result in having reasoners running with unexpected behaviour or not running at all.\n\nEven if FaBiO does not handle author ordering directly, it is possible to use it in combination with other pure OWL 2 DL compliant ontologies, such as the Collections Ontology (CO) – that is fully described in the paper 'The Collections Ontology: creating and handling collections in OWL 2 DL frameworks' by Ciccarese and Peroni – which was specifically designed for defining orders among items. \nThis ontology allows us to link a co:List of authors through the dcterms:creator property.\n\n    :opjk-and-diligent a fabio:ResearchPaper ;\n        dcterms:creator :author-list .\n\n    :author-list a co:List , foaf:Group ;\n        co:firstItem :author-item-1 ;\n        co:item\n            :author-item-1 ,\n            :author-item-2 ,\n            :author-item-3 ,\n            :author-item-4 ,\n            :author-item-5 ;\n        co:lastItem :author-item-5 ;\n        co:size '5'^^xsd:nonNegativeInteger .\n\n    :author-item-1 a co:ListItem ;\n        co:index '1'^^xsd:positiveInteger ;\n        co:itemContent :casanovas ;\n        co:nextItem :author-item-2 .\n\n    :author-item-2 a co:ListItem ;\n        co:index '2'^^xsd:positiveInteger ;\n        co:itemContent :casellas ;\n        co:nextItem :author-item-3 .\n\n    :author-item-3 a co:ListItem ;\n        co:index '3'^^xsd:positiveInteger ;\n        co:itemContent :tempich ;\n        co:nextItem :author-item-4 .\n\n    :author-item-4 a co:ListItem ;\n        co:index '4'^^xsd:positiveInteger ;\n        co:itemContent :vrandecic ;\n        co:nextItem :author-item-5 .\n\n    :author-item-5 a co:ListItem ;\n        co:index '5'^^xsd:positiveInteger ;\n        co:itemContent :benjamins .\n\n    :casanovas a foaf:Person ;\n        foaf:givenName 'Pompeu' ;\n        foaf:familyName 'Casanovas' .\n\n    :casellas a foaf:Person ;\n        foaf:givenName 'Nuria' ;\n        foaf:familyName 'Casellas' .\n\n    :tempich a foaf:Person ;\n        foaf:givenName 'Christoph' ;\n        foaf:familyName 'Tempich' .\n\n    :vrandecic a foaf:Person ;\n        foaf:givenName 'Denny' ;\n        foaf:familyName 'Vrandečić' .\n\n    :benjamins a foaf:Person ;\n        foaf:givenName 'Richard' ;\n        foaf:familyName 'Benjamins' .\n\n### Associating keywords, subject terms and disciplines to a paper\n\nOne of the most important needs for a publisher is to categorise each bibliographic entity it produces by adding free-text keywords and/or specific terms structured according to recognised classification systems and/or thesauri developed for specific academic disciplines. \nWhile through FaBiO the definition of keywords is possible using the PRISM property `prism:keyword`, terms from thesauri, structured vocabularies and classification systems are described using SKOS.\n\nTo this end, FaBiO extends some classes and properties of SKOS. \nFirst of all any FRBR endeavour can be associated (`fabio:hasSubjectTerm`) with one or more descriptive terms (`fabio:SubjectTerm`, a sub-class of `skos:Concept`) found in a specific dictionary (`fabio:TermDictionary`, a sub-class of `skos:ConceptScheme`) that is relevant to (`fabio:hasDiscipline`) particular disciplines (`fabio:SubjectDiscipline`, also a sub-class of `skos:Concept`) describing a field of knowledge or human activity such as computer science, biology, economics, cookery or swimming. \nAt the same time, the subject disciplines can be grouped by an opportune vocabulary (i.e., `fabio:DisciplineDictionary`).\n\n    :opjk-and-diligent a fabio:ResearchPaper ;\n        fabio:hasSubjectTerm\n            facet:air-and-space-law ,\n            facet:computational-linguistics ,\n            facet:philosophy-of-law ,\n            facet:legal-aspects-of-computing ,\n            facet:artificial-intelligence-incl-robotics ;\n        prism:keywords\n            'legal ontologies' ,\n            'methodology' ,\n            'ontology modeling' ,\n            'professional knowledge' ,\n            'rhetorical structure theory' .\n\n    <http://link.springer.com/facet> a fabio:TermDictionary ;\n        skos:prefLabel 'Facet dictionary used in Springer library' ;\n        fabio:hasDiscipline\n            dbpedia:Computer_science ,\n            dbpedia:Law .\n\n    facet:air-and-space-law a fabio:SubjectTerm ;\n        skos:prefLabel 'Air and Space Law' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:computational-linguistics a fabio:SubjectTerm ;\n        skos:prefLabel 'Computational Linguistics' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:philosophy-of-law a fabio:SubjectTerm ;\n        skos:prefLabel 'Philosophy of Law' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:legal-aspects-of-computing a fabio:SubjectTerm ;\n        skos:prefLabel 'Legal Aspects of Computing' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:artificial-intelligence-incl-robotics a fabio:SubjectTerm ;\n        skos:prefLabel 'Artificial Intelligence (incl. Robotics)' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n## Competency Questions\n\nFaBiO can be used for answering several questions related to bibliographic objects and other entities involved in the publishing process.\n\nIn the following subsections, some of them are introduced together with their respective SPARQL queries. \n\nThe prefixes that are used in all the SPARQL queries provided below are defined as follows:\n\n    PREFIX dcterms: <http://purl.org/dc/terms/>\n    PREFIX fabio: <http://purl.org/spar/fabio/>\n    PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n    PREFIX frbr: <http://purl.org/vocab/frbr/core#>\n    PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>\n    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\n### CQ1\n\nWhat are the titles and publication years of all available journal articles?\n\n    SELECT ?title ?year\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            dcterms:title ?title ;\n            fabio:hasPublicationYear ?year .\n    }\n\n### CQ2\n\nWho are the authors (first and last names) of the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?givenName ?familyName\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' .\n    \n    ?paper a fabio:ResearchPaper ;\n            frbr:realization ?article ;\n            dcterms:creator ?author .\n    \n    ?author foaf:givenName ?givenName ;\n            foaf:familyName ?familyName .\n    }\n\n### CQ3\n\nIn which journal, volume, and issue was the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?journalTitle ?volume ?issue\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' ;\n            frbr:partOf ?journalIssue .\n    \n    ?journalIssue a fabio:JournalIssue ;\n            prism:issueIdentifier ?issue ;\n            frbr:partOf ?journalVolume .\n    \n    ?journalVolume a fabio:JournalVolume ;\n            prism:volume ?volume ;\n            frbr:partOf ?journal .\n    \n    ?journal a fabio:Journal ;\n            dcterms:title ?journalTitle .\n    }\n\n### CQ4\n\nWhat are the keywords associated with the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?keyword\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' .\n    \n    ?paper a fabio:ResearchPaper ;\n            prism:keywords ?keyword .\n    }\n\n### CQ5\n\nWhat are the preferred labels of all subject terms assigned to the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?keyword\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' .\n    \n    ?paper a fabio:ResearchPaper ;\n            fabio:hasSubjectTerm ?subjectTerm .\n\n    ?subjectTerm a fabio:SubjectTerm ;\n            skos:prefLabel ?subjectLabel .\n    }\n\n"
+        "@value": "\nThe ***FRBR-aligned Bibliographic Ontology (FaBiO)*** is an ontology for recording and publishing on the Semantic Web descriptions of entities that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define such bibliographic references. \nFaBiO entities are primarily textual publications such as books, magazines, newspapers and journals, and items of their content such as poems, conference papers and editorials. \nHowever, they also include blogs, web pages, datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also anthologies, catalogues and similar collections.\n\nFaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., FRBR, DC Terms, PRISM and SKOS. \nIn addition, FaBiO has been developed so to limit any restriction to its classes as well as the domains and ranges of its properties. \nThis flexibility has the great advantage of allowing FaBiO to be used together with other models.\n\nIn particular, FaBiO classes are structured according to the FRBR schema of Works, Expressions, Manifestations and Items. \nThe following Graffoo diagram shows additional properties that have been added to extends the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).\n\n![The architecture of FaBiO.](fabio.png)\n\nWith FaBiO, it thus becomes possible:\n\n* to write semantic descriptions of a wide variety of bibliographic objects, including conference papers (`fabio:ConferencePaper`), journal articles (`fabio:JournalArticle`), journal issues and volumes (`fabio:JournalIssue` and `fabio:JournalVolume`), using terms that closely resemble the language used in everyday speech by academics and publishers;\n* to employ FRBR categories (i.e., `fabio:Work`, `fabio:Expression`, `fabio:Manifestation` and `fabio:Item`, all subclasses of the related FRBR classes) to define clear separations between each part of the publishing process, which involves different people (authors, publishers, readers), depending on which aspect of the bibliographic entity we are considering: the high-level conceptualisation of the research paper, the version of record of that paper forming a journal article, the publication of the article in various formats, and the individual physical or electronic exemplars of the published article that people may read and own;\n* to include with ease elements from other vocabularies which describe particular entities involved in the publishing process that are not specified by FaBiO itself, such as those from FOAF for persons and organisations.\n\n## Examples of use\n\nIn the following subsections, we introduce some examples to showcase how to use FaBiO. \n\nThe prefixes that are used in all the examples provided below are defined as follows:\n\n    @prefix : <http://www.sparontologies.net/example/> .\n    @prefix application: <http://purl.org/NET/mediatypes/application/> .\n    @prefix co: <http://purl.org/co/> .\n    @prefix dbpedia: <http://dbpedia.org/resource/> .\n    @prefix dcterms: <http://purl.org/dc/terms/> .\n    @prefix fabio: <http://purl.org/spar/fabio/> .\n    @prefix facet: <http://link.springer.com/facet/> .\n    @prefix foaf: <http://xmlns.com/foaf/0.1/> .\n    @prefix frbr: <http://purl.org/vocab/frbr/core#> .\n    @prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .\n    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n### Describing a bibliographic entity\n\nFaBiO allows one to describe information related to a bibliographic entity such as the following one:\n\n> Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.\n\nFrom the previous reference we can extract the following information:\n\n1. the document is an _academic research article_ – deducible from the journal in which it is published;\n2. _Pompeu Casanovas_, _Núria Casellas_, _Christoph Tempich_, _Denny Vrandečić_, and _Richard Benjamins_ are the authors of the article;\n3. the article was published in _2007_;\n4. the article is titled _OPJK and DILIGENT: ontology modeling in a distributed environment_;\n5. it was published in the _2nd issue_ of the _15th volume_ of _Artificial Intelligence and Law_;\n6. the DOI of the article is _10.1007/s10506-007-9036-2_;\n7. the Print ISSN of the journal is _0924-8463_;\n8. the Online ISSN of the journal is _1572-8382_;\n9. the PDF version of the article was published online on _May 31, 2007_;\n10. the journal issue within which the printed version of the article was published bears the publication date _June 2007_;\n11. the page range of the article within the printed version is _171-186_;\n12. the publisher of the journal is _Springer_.\n\nBy using FaBiO entities, which also include part of the [FRBR](http://purl.org/vocab/frbr/core#), [DC Terms](http://purl.org/dc/terms/) and [PRISM](http://prismstandard.org/namespaces/basic/2.0/) vocabularies, it is possible to create a full description of all the aspects introduced by the aforementioned twelve points.\n\n    :opjk-and-diligent a fabio:ResearchPaper ;\n        dcterms:creator :casanovas , :casellas,\n            :tempich, :vrandecic, :benjamins ;\n        frbr:realization :version-of-record .\n\n    :version-of-record a fabio:JournalArticle ;\n        dcterms:title 'OPJK and DILIGENT: ontology\n            modeling in a distributed environment' ;\n        fabio:hasPublicationYear '2007'^^xsd:gYear ;\n        prism:doi '10.1007/s10506-007-9036-2' ;\n        frbr:embodiment :printed , :pdf ;\n        frbr:partOf :ai-and-law-15-2 .\n\n    :ai-and-law-15-2 a fabio:JournalIssue ;\n        prism:issueIdentifier '2' ;\n        frbr:embodiment :printed-issue ;\n        frbr:partOf :ai-and-law-15 .\n\n    :ai-and-law-15 a fabio:JournalVolume ;\n        prism:volume '15' ;\n        frbr:partOf :ai-and-law .\n\n    :ai-and-law a fabio:Journal ;\n        dcterms:title 'Artificial Intelligence and Law' .\n\n    :printed-issue a fabio:Paperback ;\n        dcterms:publisher :springer ;\n        prism:publicationDate '2007-06'^^xsd:gYearMonth ;\n        frbr:part :printed .\n\n    :printed a fabio:PrintObject ;\n        dcterms:publisher :springer ;\n        prism:publicationDate '2007-06'^^xsd:gYearMonth ;\n        prism:startingPage '171' ;\n        prism:endingPage '186' .\n\n    :pdf a fabio:DigitalManifestation ;\n        dcterms:publisher :springer ;\n        dcterms:format application:pdf ;\n        prism:publicationDate '2007-05-31'^^xsd:date .\n\n    :casanovas a foaf:Person ;\n        foaf:givenName 'Pompeu' ;\n        foaf:familyName 'Casanovas' .\n\n    :casellas a foaf:Person ;\n        foaf:givenName 'Nuria' ;\n        foaf:familyName 'Casellas' .\n\n    :tempich a foaf:Person ;\n        foaf:givenName 'Christoph' ;\n        foaf:familyName 'Tempich' .\n\n    :vrandecic a foaf:Person ;\n        foaf:givenName 'Denny' ;\n        foaf:familyName 'Vrandečić' .\n\n    :benjamins a foaf:Person ;\n        foaf:givenName 'Richard' ;\n        foaf:familyName 'Benjamins' .\n\n    :springer a foaf:Organization ;\n        foaf:name 'Springer' .\n\n### Specifying ordered lists of authors\n\nSometimes, it is important to keep track of the actual order the authors of a paper as they appear in the author list. \nThe usual approach is to use RDF collections for handling it. \nHowever, this choice can have several drawbacks, first of all that it is not a fully OWL 2 DL compliant way of modelling ordered items – and this could result in having reasoners running with unexpected behaviour or not running at all.\n\nEven if FaBiO does not handle author ordering directly, it is possible to use it in combination with other pure OWL 2 DL compliant ontologies, such as the [Collections Ontology (CO)](http://purl.org/co/) – that is fully described in the paper 'The Collections Ontology: creating and handling collections in OWL 2 DL frameworks' by Ciccarese and Peroni – which was specifically designed for defining orders among items. \nThis ontology allows us to link a `co:List` of authors through the `dcterms:creator` property.\n\n    :opjk-and-diligent a fabio:ResearchPaper ;\n        dcterms:creator :author-list .\n\n    :author-list a co:List , foaf:Group ;\n        co:firstItem :author-item-1 ;\n        co:item\n            :author-item-1 ,\n            :author-item-2 ,\n            :author-item-3 ,\n            :author-item-4 ,\n            :author-item-5 ;\n        co:lastItem :author-item-5 ;\n        co:size '5'^^xsd:nonNegativeInteger .\n\n    :author-item-1 a co:ListItem ;\n        co:index '1'^^xsd:positiveInteger ;\n        co:itemContent :casanovas ;\n        co:nextItem :author-item-2 .\n\n    :author-item-2 a co:ListItem ;\n        co:index '2'^^xsd:positiveInteger ;\n        co:itemContent :casellas ;\n        co:nextItem :author-item-3 .\n\n    :author-item-3 a co:ListItem ;\n        co:index '3'^^xsd:positiveInteger ;\n        co:itemContent :tempich ;\n        co:nextItem :author-item-4 .\n\n    :author-item-4 a co:ListItem ;\n        co:index '4'^^xsd:positiveInteger ;\n        co:itemContent :vrandecic ;\n        co:nextItem :author-item-5 .\n\n    :author-item-5 a co:ListItem ;\n        co:index '5'^^xsd:positiveInteger ;\n        co:itemContent :benjamins .\n\n    :casanovas a foaf:Person ;\n        foaf:givenName 'Pompeu' ;\n        foaf:familyName 'Casanovas' .\n\n    :casellas a foaf:Person ;\n        foaf:givenName 'Nuria' ;\n        foaf:familyName 'Casellas' .\n\n    :tempich a foaf:Person ;\n        foaf:givenName 'Christoph' ;\n        foaf:familyName 'Tempich' .\n\n    :vrandecic a foaf:Person ;\n        foaf:givenName 'Denny' ;\n        foaf:familyName 'Vrandečić' .\n\n    :benjamins a foaf:Person ;\n        foaf:givenName 'Richard' ;\n        foaf:familyName 'Benjamins' .\n\n### Associating keywords, subject terms and disciplines to a paper\n\nOne of the most important needs for a publisher is to categorise each bibliographic entity it produces by adding free-text keywords and/or specific terms structured according to recognised classification systems and/or thesauri developed for specific academic disciplines. \nWhile through FaBiO the definition of keywords is possible using the [PRISM](http://prismstandard.org/namespaces/basic/2.0/) property `prism:keyword`, terms from thesauri, structured vocabularies and classification systems are described using SKOS.\n\nTo this end, FaBiO extends some classes and properties of [SKOS](http://www.w3.org/2004/02/skos/core#). \nFirst of all any FRBR endeavour can be associated (`fabio:hasSubjectTerm`) with one or more descriptive terms (`fabio:SubjectTerm`, a sub-class of `skos:Concept`) found in a specific dictionary (`fabio:TermDictionary`, a sub-class of `skos:ConceptScheme`) that is relevant to (`fabio:hasDiscipline`) particular disciplines (`fabio:SubjectDiscipline`, also a sub-class of `skos:Concept`) describing a field of knowledge or human activity such as computer science, biology, economics, cookery or swimming. \nAt the same time, the subject disciplines can be grouped by an opportune vocabulary (i.e., `fabio:DisciplineDictionary`).\n\n    :opjk-and-diligent a fabio:ResearchPaper ;\n        fabio:hasSubjectTerm\n            facet:air-and-space-law ,\n            facet:computational-linguistics ,\n            facet:philosophy-of-law ,\n            facet:legal-aspects-of-computing ,\n            facet:artificial-intelligence-incl-robotics ;\n        prism:keywords\n            'legal ontologies' ,\n            'methodology' ,\n            'ontology modeling' ,\n            'professional knowledge' ,\n            'rhetorical structure theory' .\n\n    <http://link.springer.com/facet> a fabio:TermDictionary ;\n        skos:prefLabel 'Facet dictionary used in Springer library' ;\n        fabio:hasDiscipline\n            dbpedia:Computer_science ,\n            dbpedia:Law .\n\n    facet:air-and-space-law a fabio:SubjectTerm ;\n        skos:prefLabel 'Air and Space Law' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:computational-linguistics a fabio:SubjectTerm ;\n        skos:prefLabel 'Computational Linguistics' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:philosophy-of-law a fabio:SubjectTerm ;\n        skos:prefLabel 'Philosophy of Law' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:legal-aspects-of-computing a fabio:SubjectTerm ;\n        skos:prefLabel 'Legal Aspects of Computing' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n    facet:artificial-intelligence-incl-robotics a fabio:SubjectTerm ;\n        skos:prefLabel 'Artificial Intelligence (incl. Robotics)' ;\n        skos:inScheme <http://link.springer.com/facet> .\n\n## Competency Questions\n\nFaBiO can be used for answering several questions related to bibliographic objects and other entities involved in the publishing process.\n\nIn the following subsections, some of them are introduced together with their respective SPARQL queries. \n\nThe prefixes that are used in all the SPARQL queries provided below are defined as follows:\n\n    PREFIX dcterms: <http://purl.org/dc/terms/>\n    PREFIX fabio: <http://purl.org/spar/fabio/>\n    PREFIX foaf: <http://xmlns.com/foaf/0.1/>\n    PREFIX frbr: <http://purl.org/vocab/frbr/core#>\n    PREFIX prism: <http://prismstandard.org/namespaces/basic/2.0/>\n    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\n### CQ1\n\nWhat are the titles and publication years of all available journal articles?\n\n    SELECT ?title ?year\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            dcterms:title ?title ;\n            fabio:hasPublicationYear ?year .\n    }\n\n### CQ2\n\nWho are the authors (first and last names) of the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?givenName ?familyName\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' .\n    \n    ?paper a fabio:ResearchPaper ;\n            frbr:realization ?article ;\n            dcterms:creator ?author .\n    \n    ?author foaf:givenName ?givenName ;\n            foaf:familyName ?familyName .\n    }\n\n### CQ3\n\nIn which journal, volume, and issue was the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?journalTitle ?volume ?issue\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' ;\n            frbr:partOf ?journalIssue .\n    \n    ?journalIssue a fabio:JournalIssue ;\n            prism:issueIdentifier ?issue ;\n            frbr:partOf ?journalVolume .\n    \n    ?journalVolume a fabio:JournalVolume ;\n            prism:volume ?volume ;\n            frbr:partOf ?journal .\n    \n    ?journal a fabio:Journal ;\n            dcterms:title ?journalTitle .\n    }\n\n### CQ4\n\nWhat are the keywords associated with the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?keyword\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' .\n    \n    ?paper a fabio:ResearchPaper ;\n            prism:keywords ?keyword .\n    }\n\n### CQ5\n\nWhat are the preferred labels of all subject terms assigned to the article with the DOI '10.1007/s10506-007-9036-2'?\n\n    SELECT ?keyword\n    WHERE {\n    ?article a fabio:JournalArticle ;\n            prism:doi '10.1007/s10506-007-9036-2' .\n    \n    ?paper a fabio:ResearchPaper ;\n            fabio:hasSubjectTerm ?subjectTerm .\n\n    ?subjectTerm a fabio:SubjectTerm ;\n            skos:prefLabel ?subjectLabel .\n    }\n\n"
       }
     ],
     "http://purl.org/dc/terms/issued": [
@@ -10235,7 +10235,7 @@
     ],
     "http://www.w3.org/2002/07/owl#backwardCompatibleWith": [
       {
-        "@id": "https://sparontologies.github.io/fabio/2023-05-09/fabio.xml"
+        "@id": "http://purl.org/spar/fabio/2023-05-09"
       }
     ],
     "http://www.w3.org/2002/07/owl#imports": [
@@ -10245,17 +10245,17 @@
     ],
     "http://www.w3.org/2002/07/owl#priorVersion": [
       {
-        "@id": "https://sparontologies.github.io/fabio/2023-05-09/fabio.xml"
+        "@id": "http://purl.org/spar/fabio/2023-05-09"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionIRI": [
       {
-        "@id": "https://sparontologies.github.io/fabio/2026-05-18/fabio.xml"
+        "@id": "http://purl.org/spar/fabio/2026-05-18"
       }
     ],
     "http://www.w3.org/2002/07/owl#versionInfo": [
       {
-        "@value": "2.3"
+        "@value": "2.3.0"
       }
     ],
     "http://xmlns.com/foaf/0.1/logo": [
@@ -10281,14 +10281,6 @@
     "https://schema.org/keywords": [
       {
         "@language": "en",
-        "@value": "semantic publishing"
-      },
-      {
-        "@language": "en",
-        "@value": "scholarly publishing"
-      },
-      {
-        "@language": "en",
         "@value": "bibliography"
       },
       {
@@ -10297,7 +10289,15 @@
       },
       {
         "@language": "en",
+        "@value": "scholarly publishing"
+      },
+      {
+        "@language": "en",
         "@value": "scientometrics"
+      },
+      {
+        "@language": "en",
+        "@value": "semantic publishing"
       }
     ]
   },
@@ -10608,10 +10608,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/ReportDocument"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b43"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b127"
+        "@id": "http://purl.org/spar/fabio/ReportDocument"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -10621,7 +10621,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b127",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b43",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -10681,6 +10681,63 @@
     ]
   },
   {
+    "@id": "http://purl.org/spar/fabio/ArchivalRecord",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-archival-record a fabio:ArchivalRecord ;\n            dcterms:title 'Correspondence of Alan Turing regarding Enigma decryption'@en ;\n            dcterms:creator :alan-turing ;\n            frbr:realization :my-archival-document ;\n            dcterms:description 'The conceptual archival entity representing the correspondence created by Alan Turing during his research.'@en .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A material created or received by a person, family, or organization, public or private, in the conduct of their affairs that is preserved because of the enduring value contained in the information it contains or as evidence of the function and the responsibilities of its creator."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/fabio/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "archival record"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b92"
+      },
+      {
+        "@id": "http://purl.org/spar/fabio/Work"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b92",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/ArchivalDocument"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#realization"
+      }
+    ]
+  },
+  {
     "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -10722,63 +10779,6 @@
       {
         "@language": "en",
         "@value": "Semantic relationships (links) between those concepts may also be viewed as part of a concept scheme. This definition is, however, meant to be suggestive rather than restrictive, and there is some flexibility in the formal data model."
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/spar/fabio/ArchivalRecord",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://purl.org/vocab/vann/example": [
-      {
-        "@value": "\n        :my-archival-record a fabio:ArchivalRecord ;\n            dcterms:title 'Correspondence of Alan Turing regarding Enigma decryption'@en ;\n            dcterms:creator :alan-turing ;\n            frbr:realization :my-archival-document ;\n            dcterms:description 'The conceptual archival entity representing the correspondence created by Alan Turing during his research.'@en .\n    "
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A material created or received by a person, family, or organization, public or private, in the conduct of their affairs that is preserved because of the enduring value contained in the information it contains or as evidence of the function and the responsibilities of its creator."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://purl.org/spar/fabio/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "archival record"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://purl.org/spar/fabio/Work"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b40"
-      }
-    ],
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
-      {
-        "@id": "http://purl.org/linked-data/registry#statusStable"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b40",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://purl.org/spar/fabio/ArchivalDocument"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#realization"
       }
     ]
   },
@@ -11117,10 +11117,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Book"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b48"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b138"
+        "@id": "http://purl.org/spar/fabio/Book"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -11130,7 +11130,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b138",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b48",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -11288,10 +11288,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Entry"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b45"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b129"
+        "@id": "http://purl.org/spar/fabio/Entry"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -11301,7 +11301,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b129",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b45",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -11544,10 +11544,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b8"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b44"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -11557,7 +11557,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b44",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b8",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -11645,10 +11645,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Article"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b47"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b132"
+        "@id": "http://purl.org/spar/fabio/Article"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -11658,7 +11658,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b132",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b47",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -11702,10 +11702,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b110"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b111"
+        "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -11715,7 +11715,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b111",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b110",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -12420,13 +12420,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b125"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b130"
+      },
+      {
         "@id": "http://purl.org/vocab/frbr/core#Item"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b78"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b83"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -12442,7 +12442,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b78",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b125",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -12450,17 +12450,17 @@
       {
         "@list": [
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b79"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b126"
           },
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b80"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b127"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b79",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b126",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -12476,7 +12476,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b80",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b127",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -12492,7 +12492,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b83",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b130",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -12548,8 +12548,8 @@
   {
     "@id": "http://purl.org/spar/fabio/ram",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -12586,8 +12586,8 @@
   {
     "@id": "http://purl.org/spar/fabio/paper",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/AnalogStorageMedium"
+      "http://purl.org/spar/fabio/AnalogStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -12619,8 +12619,8 @@
   {
     "@id": "http://purl.org/spar/fabio/intranet",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -12924,10 +12924,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b17"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b72"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -12937,7 +12937,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b72",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b17",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -13068,10 +13068,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b98"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b134"
+        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -13087,7 +13087,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b134",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b98",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -13207,10 +13207,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/NewsItem"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b72"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b96"
+        "@id": "http://purl.org/spar/fabio/NewsItem"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -13220,7 +13220,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b96",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b72",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -13264,10 +13264,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/StorageMedium"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b113"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b37"
+        "@id": "http://purl.org/spar/fabio/StorageMedium"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -13277,7 +13277,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b37",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b113",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -13359,10 +13359,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b112"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b137"
+        "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -13378,7 +13378,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b137",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b112",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -13522,8 +13522,8 @@
   {
     "@id": "http://purl.org/spar/fabio/web",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -13550,63 +13550,6 @@
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
       {
         "@id": "http://purl.org/linked-data/registry#statusStable"
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/spar/fabio/NewspaperArticle",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://purl.org/vocab/vann/example": [
-      {
-        "@value": "\n        :my-newspaper-article a fabio:NewspaperArticle ;\n            dcterms:title 'Results from administrative elections 2026'@en ;\n            frbr:partOf :my-newspaper-issue ;\n            dcterms:description 'An article published in a newspaper.'@en .\n    "
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "An article written by a journalist and published in a newspaper."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://purl.org/spar/fabio/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "newspaper article"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://purl.org/spar/fabio/Article"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b109"
-      }
-    ],
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
-      {
-        "@id": "http://purl.org/linked-data/registry#statusStable"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b109",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#partOf"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "http://purl.org/spar/fabio/NewspaperIssue"
       }
     ]
   },
@@ -13645,6 +13588,63 @@
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
       {
         "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/spar/fabio/NewspaperArticle",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-newspaper-article a fabio:NewspaperArticle ;\n            dcterms:title 'Results from administrative elections 2026'@en ;\n            frbr:partOf :my-newspaper-issue ;\n            dcterms:description 'An article published in a newspaper.'@en .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "An article written by a journalist and published in a newspaper."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/fabio/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "newspaper article"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b30"
+      },
+      {
+        "@id": "http://purl.org/spar/fabio/Article"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b30",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#partOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/NewspaperIssue"
       }
     ]
   },
@@ -13900,7 +13900,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b11"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b78"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
@@ -13920,7 +13920,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b11",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b78",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -13940,8 +13940,8 @@
   {
     "@id": "http://purl.org/spar/fabio/analog-magnetic-tape",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/AnalogStorageMedium"
+      "http://purl.org/spar/fabio/AnalogStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -14661,6 +14661,44 @@
     ]
   },
   {
+    "@id": "http://purl.org/spar/fabio/Thesaurus",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://purl.org/vocab/vann/example": [
+      {
+        "@value": "\n        :my-thesaurus a fabio:Thesaurus ;\n            dcterms:title 'UNESCO Thesaurus'@en ;\n            dcterms:creator :john-doe ;\n            dcterms:description 'A controlled vocabulary in which concepts are represented by preferred terms, and relationships between concepts are explicitly stated.'@en .\n    "
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "A type of controlled vocabulary used in information retrieval applications for indexing or tagging purposes, in which relationships between terms are made explicit. These are normally hierarchical relationships (is-a, subsumption; e.g. a cow is a mammal), equivalency relationships relating non-preferred terms to preferred terms (e.g. pitch and frequency), or associative relationships, in which the relationship that exists is neither one of hierarchy or equivalence, but rather one of similarity (e.g. sports and leisure pursuits)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/fabio/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "thesaurus"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://purl.org/spar/fabio/ControlledVocabulary"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      {
+        "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.org/spar/fabio/BibliographicDatabase",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -14701,44 +14739,6 @@
       {
         "@language": "en",
         "@value": "Examples include PubMed (http://www.ncbi.nlm.nih.gov/pubmed), CrossRef Metadata Search (http://search.crossref.org/) and PubMed Central (http://www.ncbi.nlm.nih.gov/pmc/)."
-      }
-    ]
-  },
-  {
-    "@id": "http://purl.org/spar/fabio/Thesaurus",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://purl.org/vocab/vann/example": [
-      {
-        "@value": "\n        :my-thesaurus a fabio:Thesaurus ;\n            dcterms:title 'UNESCO Thesaurus'@en ;\n            dcterms:creator :john-doe ;\n            dcterms:description 'A controlled vocabulary in which concepts are represented by preferred terms, and relationships between concepts are explicitly stated.'@en .\n    "
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "A type of controlled vocabulary used in information retrieval applications for indexing or tagging purposes, in which relationships between terms are made explicit. These are normally hierarchical relationships (is-a, subsumption; e.g. a cow is a mammal), equivalency relationships relating non-preferred terms to preferred terms (e.g. pitch and frequency), or associative relationships, in which the relationship that exists is neither one of hierarchy or equivalence, but rather one of similarity (e.g. sports and leisure pursuits)."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://purl.org/spar/fabio/"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "thesaurus"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://purl.org/spar/fabio/ControlledVocabulary"
-      }
-    ],
-    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
-      {
-        "@id": "http://purl.org/linked-data/registry#statusStable"
       }
     ]
   },
@@ -14934,10 +14934,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Item"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b23"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b84"
+        "@id": "http://purl.org/spar/fabio/Item"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -14947,7 +14947,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b84",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b23",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15029,13 +15029,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b106"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b107"
+      },
+      {
         "@id": "http://purl.org/spar/fabio/Item"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b58"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b59"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -15051,7 +15051,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b58",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b106",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15067,7 +15067,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b59",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b107",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15111,13 +15111,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b68"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b69"
+      },
+      {
         "@id": "http://purl.org/spar/fabio/Periodical"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b85"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b86"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -15133,7 +15133,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b85",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b68",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15149,7 +15149,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b86",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b69",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15498,7 +15498,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#domain": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b1"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b51"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
@@ -15539,7 +15539,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b1",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b51",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -15738,10 +15738,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/AcademicProceedings"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b13"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b54"
+        "@id": "http://purl.org/spar/fabio/AcademicProceedings"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -15751,7 +15751,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b54",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b13",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15844,16 +15844,16 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b143"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b148"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b149"
+      },
+      {
         "@id": "http://purl.org/vocab/frbr/core#Expression"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b64"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b69"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b70"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -15869,7 +15869,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b64",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b143",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -15877,17 +15877,17 @@
       {
         "@list": [
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b65"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b144"
           },
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b66"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b145"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b65",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b144",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15903,7 +15903,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b66",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b145",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15919,7 +15919,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b69",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b148",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15935,7 +15935,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b70",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b149",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -15953,8 +15953,8 @@
   {
     "@id": "http://purl.org/spar/fabio/internet",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/DigitalStorageMedium"
+      "http://purl.org/spar/fabio/DigitalStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -16137,10 +16137,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Periodical"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b74"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b108"
+        "@id": "http://purl.org/spar/fabio/Periodical"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -16150,7 +16150,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b108",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b74",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -16270,10 +16270,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Chapter"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b9"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b45"
+        "@id": "http://purl.org/spar/fabio/Chapter"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -16283,7 +16283,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b45",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b9",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -16333,13 +16333,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b64"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b65"
+      },
+      {
         "@id": "http://purl.org/spar/fabio/ExpressionCollection"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b38"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b39"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -16349,7 +16349,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b38",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b64",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -16365,7 +16365,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b39",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b65",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -16383,8 +16383,8 @@
   {
     "@id": "http://purl.org/spar/fabio/vinyl-disk",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/AnalogStorageMedium"
+      "http://purl.org/spar/fabio/AnalogStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -16443,10 +16443,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b105"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b53"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -16456,7 +16456,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b53",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b105",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -16588,8 +16588,8 @@
   {
     "@id": "http://purl.org/spar/fabio/film",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://purl.org/spar/fabio/AnalogStorageMedium"
+      "http://purl.org/spar/fabio/AnalogStorageMedium",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -17018,10 +17018,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b67"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b62"
+        "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
       }
     ],
     "http://www.w3.org/2002/07/owl#disjointWith": [
@@ -17036,7 +17036,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b62",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b67",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -17080,10 +17080,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b34"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b114"
+        "@id": "http://purl.org/spar/fabio/SpecificationDocument"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -17093,7 +17093,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b114",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b34",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -17304,10 +17304,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Expression"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b11"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b51"
+        "@id": "http://purl.org/spar/fabio/Expression"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -17317,7 +17317,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b51",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b11",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -17373,10 +17373,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b99"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b136"
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -17386,7 +17386,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b136",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b99",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

@@ -8,7 +8,7 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/WebContent">
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b141"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b104"/>
     <rdfs:comment xml:lang="en">Information prepared specifically and primarily for manifestation in a web page, comprising text, images, datasets and/or other works.</rdfs:comment>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <vann:example>
@@ -21,9 +21,9 @@
     <rdfs:label xml:lang="en">web content</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b141">
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodiment"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b104">
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/WebManifestation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodiment"/>
   </rdf:Description>
 </rdf:RDF>

@@ -9,9 +9,9 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/Manifestation">
     <rdfs:subClassOf rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b102"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b103"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b97"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b119"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b118"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b120"/>
     <skos:note xml:lang="en">A `fabio:Manifestation` can only have part or be part of another `fabio:Manifestation`. Moreover, it can be an embodiment only of a `fabio:Expression` and it can be exemplified only by instances of `fabio:Item`.
     
 Examples of different manifestations of a single 'version of record' expression of a scholarly work include an article in a print journal or the on-line version of that article as a web page.</skos:note>
@@ -28,36 +28,36 @@ Examples of different manifestations of a single 'version of record' expression 
     <rdfs:label xml:lang="en">manifestation</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b102">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Expression"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b118">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#embodimentOf"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Expression"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b97">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:intersectionOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b100"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b124">
+    <rdf:first rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b122"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b98">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b121">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
     <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b103">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b119">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplar"/>
     <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/Item"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#exemplar"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b101">
-    <rdf:first rdf:nodeID="nea40cf5453a74d20979b31112366b909b99"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b99">
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b122">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
     <owl:allValuesFrom rdf:resource="http://purl.org/vocab/frbr/core#Manifestation"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b100">
-    <rdf:rest rdf:nodeID="nea40cf5453a74d20979b31112366b909b101"/>
-    <rdf:first rdf:nodeID="nea40cf5453a74d20979b31112366b909b98"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b120">
+    <owl:intersectionOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b123"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b123">
+    <rdf:first rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b121"/>
+    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b124"/>
   </rdf:Description>
 </rdf:RDF>

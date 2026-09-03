@@ -1,12 +1,12 @@
-_:nea40cf5453a74d20979b31112366b909b134 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realizationOf> .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/spar/fabio/Abstract> .
+_:n584f50b3c9f447dda23e912c314ed7a7b98 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realizationOf> .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#label> "structured summary"@en .
-_:nea40cf5453a74d20979b31112366b909b134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n584f50b3c9f447dda23e912c314ed7a7b98 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/fabio/MinimalInformationStandard> .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/SpecificationDocument> .
-<http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:nea40cf5453a74d20979b31112366b909b134 .
-_:nea40cf5453a74d20979b31112366b909b134 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/fabio/MinimalInformationStandard> .
+_:n584f50b3c9f447dda23e912c314ed7a7b98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b98 .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2000/01/rdf-schema#comment> "A structured summary containing essential metadata describing a research investigation and/or the research outputs that have resulted from it, for example datasets and journal articles, structured according to some minimal information standard."@en .
 <http://purl.org/spar/fabio/StructuredSummary> <http://purl.org/vocab/vann/example> "\n        :my-structured-summary a fabio:StructuredSummary ;\n            dcterms:title 'Structured summary of Project X'@en ;\n            frbr:realizationOf :my-minimal-information-standard ;\n            dcterms:description 'A summary of a document that is structured into formal sections, such as Background, Methods, Results, and Conclusions.'@en .\n    " .
 <http://purl.org/spar/fabio/StructuredSummary> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .

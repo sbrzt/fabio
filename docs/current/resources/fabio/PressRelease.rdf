@@ -7,8 +7,8 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/PressRelease">
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/NewsItem"/>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:label xml:lang="en">press release</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <vann:example>
         :my-presentation a fabio:Presentation ;
             dcterms:title 'Introduction to Semantic Web technologies'@en ;

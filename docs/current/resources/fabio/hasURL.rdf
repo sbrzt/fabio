@@ -6,6 +6,7 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/hasURL">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:comment xml:lang="en">An identifier, in form of an HTTP Universal Resource Locator (URL), for a particular resource on the World Wide Web.</rdfs:comment>
     <vann:example>
         :my-journal-article a fabio:JournalArticle ;
@@ -16,7 +17,6 @@
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:label xml:lang="en">has URL</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

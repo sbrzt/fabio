@@ -441,7 +441,7 @@ bibo:doi a owl:AnnotationProperty .
     dcterms:bibliographicCitation "Peroni, S., Shotton, D. (2012). FaBiO and CiTO: ontologies for describing bibliographic resources and citations. In Journal of Web Semantics, 17: 33-43. https://doi.org/10.1016/j.websem.2012.08.001. Open Access at: https://doi.org/10.2139/ssrn.3198992"@en ;
     dcterms:created "2017-05-29" ;
     dcterms:description """
-The **_FRBR-aligned Bibliographic Ontology (FaBiO)_** is an ontology for recording and publishing on the Semantic Web descriptions of entities that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define such bibliographic references. 
+The ***FRBR-aligned Bibliographic Ontology (FaBiO)*** is an ontology for recording and publishing on the Semantic Web descriptions of entities that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define such bibliographic references. 
 FaBiO entities are primarily textual publications such as books, magazines, newspapers and journals, and items of their content such as poems, conference papers and editorials. 
 However, they also include blogs, web pages, datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also anthologies, catalogues and similar collections.
 
@@ -485,24 +485,24 @@ The prefixes that are used in all the examples provided below are defined as fol
 
 FaBiO allows one to describe information related to a bibliographic entity such as the following one:
 
-* Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
+> Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
 
 From the previous reference we can extract the following information:
 
-1. the document is an academic research article – deducible from the journal in which it is published;
-2. Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, and Richard Benjamins are the authors of the article;
-3. the article was published in 2007;
-4. the article is titled `OPJK and DILIGENT: ontology modeling in a distributed environment`;
-5. it was published in the 2nd issue of the 15th volume of Artificial Intelligence and Law;
-6. the DOI of the article is `10.1007/s10506-007-9036-2`;
-7. the Print ISSN of the journal is `0924-8463`;
-8. the Online ISSN of the journal is `1572-8382`;
-9. the PDF version of the article was published online on May 31, 2007;
-10. the journal issue within which the printed version of the article was published bears the publication date June 2007;
-11. the page range of the article within the printed version is `171-186`;
-12. the publisher of the journal is Springer.
+1. the document is an _academic research article_ – deducible from the journal in which it is published;
+2. _Pompeu Casanovas_, _Núria Casellas_, _Christoph Tempich_, _Denny Vrandečić_, and _Richard Benjamins_ are the authors of the article;
+3. the article was published in _2007_;
+4. the article is titled _OPJK and DILIGENT: ontology modeling in a distributed environment_;
+5. it was published in the _2nd issue_ of the _15th volume_ of _Artificial Intelligence and Law_;
+6. the DOI of the article is _10.1007/s10506-007-9036-2_;
+7. the Print ISSN of the journal is _0924-8463_;
+8. the Online ISSN of the journal is _1572-8382_;
+9. the PDF version of the article was published online on _May 31, 2007_;
+10. the journal issue within which the printed version of the article was published bears the publication date _June 2007_;
+11. the page range of the article within the printed version is _171-186_;
+12. the publisher of the journal is _Springer_.
 
-By using FaBiO entities, which also include part of the FRBR, DC Terms and PRISM vocabularies, it is possible to create a full description of all the aspects introduced by the aforementioned twelve points.
+By using FaBiO entities, which also include part of the [FRBR](http://purl.org/vocab/frbr/core#), [DC Terms](http://purl.org/dc/terms/) and [PRISM](http://prismstandard.org/namespaces/basic/2.0/) vocabularies, it is possible to create a full description of all the aspects introduced by the aforementioned twelve points.
 
     :opjk-and-diligent a fabio:ResearchPaper ;
         dcterms:creator :casanovas , :casellas,
@@ -574,8 +574,8 @@ Sometimes, it is important to keep track of the actual order the authors of a pa
 The usual approach is to use RDF collections for handling it. 
 However, this choice can have several drawbacks, first of all that it is not a fully OWL 2 DL compliant way of modelling ordered items – and this could result in having reasoners running with unexpected behaviour or not running at all.
 
-Even if FaBiO does not handle author ordering directly, it is possible to use it in combination with other pure OWL 2 DL compliant ontologies, such as the Collections Ontology (CO) – that is fully described in the paper 'The Collections Ontology: creating and handling collections in OWL 2 DL frameworks' by Ciccarese and Peroni – which was specifically designed for defining orders among items. 
-This ontology allows us to link a co:List of authors through the dcterms:creator property.
+Even if FaBiO does not handle author ordering directly, it is possible to use it in combination with other pure OWL 2 DL compliant ontologies, such as the [Collections Ontology (CO)](http://purl.org/co/) – that is fully described in the paper 'The Collections Ontology: creating and handling collections in OWL 2 DL frameworks' by Ciccarese and Peroni – which was specifically designed for defining orders among items. 
+This ontology allows us to link a `co:List` of authors through the `dcterms:creator` property.
 
     :opjk-and-diligent a fabio:ResearchPaper ;
         dcterms:creator :author-list .
@@ -638,9 +638,9 @@ This ontology allows us to link a co:List of authors through the dcterms:creator
 ### Associating keywords, subject terms and disciplines to a paper
 
 One of the most important needs for a publisher is to categorise each bibliographic entity it produces by adding free-text keywords and/or specific terms structured according to recognised classification systems and/or thesauri developed for specific academic disciplines. 
-While through FaBiO the definition of keywords is possible using the PRISM property `prism:keyword`, terms from thesauri, structured vocabularies and classification systems are described using SKOS.
+While through FaBiO the definition of keywords is possible using the [PRISM](http://prismstandard.org/namespaces/basic/2.0/) property `prism:keyword`, terms from thesauri, structured vocabularies and classification systems are described using SKOS.
 
-To this end, FaBiO extends some classes and properties of SKOS. 
+To this end, FaBiO extends some classes and properties of [SKOS](http://www.w3.org/2004/02/skos/core#). 
 First of all any FRBR endeavour can be associated (`fabio:hasSubjectTerm`) with one or more descriptive terms (`fabio:SubjectTerm`, a sub-class of `skos:Concept`) found in a specific dictionary (`fabio:TermDictionary`, a sub-class of `skos:ConceptScheme`) that is relevant to (`fabio:hasDiscipline`) particular disciplines (`fabio:SubjectDiscipline`, also a sub-class of `skos:Concept`) describing a field of knowledge or human activity such as computer science, biology, economics, cookery or swimming. 
 At the same time, the subject disciplines can be grouped by an opportune vocabulary (i.e., `fabio:DisciplineDictionary`).
 
@@ -789,11 +789,11 @@ What are the preferred labels of all subject terms assigned to the article with 
     vann:preferredNamespacePrefix "fabio" ;
     vann:preferredNamespaceUri "http://purl.org/spar/fabio/"^^xsd:anyURI ;
     rdfs:seeAlso <http://www.sparontologies.net/ontologies/fabio> ;
-    owl:backwardCompatibleWith <https://sparontologies.github.io/fabio/2023-05-09/fabio.xml> ;
+    owl:backwardCompatibleWith fabio:2023-05-09 ;
     owl:imports <http://purl.org/spar/frbr> ;
-    owl:priorVersion <https://sparontologies.github.io/fabio/2023-05-09/fabio.xml> ;
-    owl:versionIRI <https://sparontologies.github.io/fabio/2026-05-18/fabio.xml> ;
-    owl:versionInfo "2.3" ;
+    owl:priorVersion fabio:2023-05-09 ;
+    owl:versionIRI fabio:2026-05-18 ;
+    owl:versionInfo "2.3.0" ;
     foaf:logo <https://github.com/SPAROntologies/fabio/blob/master/spar.png> ;
     schema:codeRepository <https://github.com/SPAROntologies/fabio> ;
     schema:image <https://github.com/SPAROntologies/fabio/blob/master/docs/current/fabio.png> ;

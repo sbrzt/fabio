@@ -6,7 +6,11 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b157">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b155">
+    <rdf:first rdf:resource="http://purl.org/spar/fabio/BachelorsThesis"/>
+    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b156"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b157">
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
     <rdf:first rdf:resource="http://purl.org/spar/fabio/MastersThesis"/>
   </rdf:Description>
@@ -23,16 +27,12 @@
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b156">
-    <rdf:rest rdf:nodeID="nea40cf5453a74d20979b31112366b909b157"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b156">
+    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b157"/>
     <rdf:first rdf:resource="http://purl.org/spar/fabio/DoctoralThesis"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b154">
-    <owl:members rdf:nodeID="nea40cf5453a74d20979b31112366b909b155"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b154">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b155">
-    <rdf:first rdf:resource="http://purl.org/spar/fabio/BachelorsThesis"/>
-    <rdf:rest rdf:nodeID="nea40cf5453a74d20979b31112366b909b156"/>
+    <owl:members rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b155"/>
   </rdf:Description>
 </rdf:RDF>

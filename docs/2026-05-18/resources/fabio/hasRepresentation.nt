@@ -1,16 +1,16 @@
-_:nea40cf5453a74d20979b31112366b909b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:nea40cf5453a74d20979b31112366b909b10 .
-<http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:nea40cf5453a74d20979b31112366b909b9 .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:n584f50b3c9f447dda23e912c314ed7a7b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "has representation"@en .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/frbr/core#Item> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocab/frbr/core#relatedEndeavour> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://purl.org/vocab/vann/example> "\n        :my-journal-article a fabio:JournalArticle ;\n            fabio:hasRepresentation :my-digital-item .\n    " .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Expression> .
-<http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "The item of an expression."@en .
-_:nea40cf5453a74d20979b31112366b909b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#embodiment> .
+<http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2004/02/skos/core#note> "This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en .
-_:nea40cf5453a74d20979b31112366b909b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#exemplar> .
+_:n584f50b3c9f447dda23e912c314ed7a7b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#embodiment> .
+_:n584f50b3c9f447dda23e912c314ed7a7b62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b63 .
+_:n584f50b3c9f447dda23e912c314ed7a7b63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#exemplar> .
 <http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/fabio/isRepresentationOf> .
-_:nea40cf5453a74d20979b31112366b909b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/fabio/hasRepresentation> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:n584f50b3c9f447dda23e912c314ed7a7b62 .

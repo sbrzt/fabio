@@ -18,8 +18,8 @@
             foaf:name 'Springer' .
     </vann:example>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
     <skos:note xml:lang="en">
 Examples of a publisher include a person, an organization, or a service. 
 Typically, the name of a publisher should be used to indicate the entity.

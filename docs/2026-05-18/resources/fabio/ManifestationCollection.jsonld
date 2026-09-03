@@ -28,7 +28,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b104"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b28"
       },
       {
         "@id": "http://purl.org/spar/fabio/Manifestation"
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b104",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b28",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

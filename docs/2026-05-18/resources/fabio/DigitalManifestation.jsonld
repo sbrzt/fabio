@@ -28,10 +28,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Manifestation"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b100"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b60"
+        "@id": "http://purl.org/spar/fabio/Manifestation"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b60",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b100",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

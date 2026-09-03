@@ -28,13 +28,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b83"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b125"
+      },
+      {
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b130"
       },
       {
         "@id": "http://purl.org/vocab/frbr/core#Item"
-      },
-      {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b78"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -50,23 +50,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b83",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://purl.org/spar/fabio/Manifestation"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#exemplarOf"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b78",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b125",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -74,17 +58,17 @@
       {
         "@list": [
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b79"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b126"
           },
           {
-            "@id": "_:nea40cf5453a74d20979b31112366b909b80"
+            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b127"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b79",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b126",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -100,7 +84,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b80",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b127",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -112,6 +96,22 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://purl.org/vocab/frbr/core#partOf"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b130",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/Manifestation"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#exemplarOf"
       }
     ]
   }

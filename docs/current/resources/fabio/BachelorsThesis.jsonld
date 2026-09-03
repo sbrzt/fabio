@@ -1,26 +1,5 @@
 [
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b154",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
-    ],
-    "http://www.w3.org/2002/07/owl#members": [
-      {
-        "@list": [
-          {
-            "@id": "http://purl.org/spar/fabio/BachelorsThesis"
-          },
-          {
-            "@id": "http://purl.org/spar/fabio/DoctoralThesis"
-          },
-          {
-            "@id": "http://purl.org/spar/fabio/MastersThesis"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "@id": "http://purl.org/spar/fabio/BachelorsThesis",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -55,6 +34,27 @@
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
       {
         "@id": "http://purl.org/linked-data/registry#statusStable"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b154",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.org/spar/fabio/BachelorsThesis"
+          },
+          {
+            "@id": "http://purl.org/spar/fabio/DoctoralThesis"
+          },
+          {
+            "@id": "http://purl.org/spar/fabio/MastersThesis"
+          }
+        ]
       }
     ]
   }

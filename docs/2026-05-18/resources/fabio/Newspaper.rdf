@@ -6,14 +6,9 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b108">
-    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/Newspaper">
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b74"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Periodical"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b108"/>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <rdfs:comment xml:lang="en">A non-peer reviewed periodical, usually published daily or weekly, consisting primarily of editorials and news items concerning current or recent events and matters of public interest.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -25,5 +20,10 @@
     </vann:example>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:label xml:lang="en">newspaper</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b74">
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
 </rdf:RDF>

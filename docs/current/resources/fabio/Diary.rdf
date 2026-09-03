@@ -6,7 +6,7 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b57">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b16">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Entry"/>
@@ -14,9 +14,9 @@
   <rdf:Description rdf:about="http://purl.org/spar/fabio/Diary">
     <rdfs:label xml:lang="en">diary</rdfs:label>
     <rdfs:comment xml:lang="en">A personal record, in a form of book, with discrete entries (often handwritten) arranged by date, reporting what has happened over the course of a day or other period of time.</rdfs:comment>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b57"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Notebook"/>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Notebook"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b16"/>
     <vann:example>
         :my-diary a fabio:Diary ;
             dcterms:title 'John's personal diary'@en ;

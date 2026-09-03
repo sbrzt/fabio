@@ -8,8 +8,8 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/BibliographicMetadata">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Metadata"/>
     <rdfs:label xml:lang="en">bibliographic metadata</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Metadata"/>
     <rdfs:comment xml:lang="en">Standard bibliographic metadata describing an expression of a work.</rdfs:comment>
     <vann:example>
         :my-bibliographic-metadata a fabio:BibliographicMetadata ;

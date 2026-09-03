@@ -28,10 +28,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b35"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b89"
       },
       {
-        "@id": "_:nea40cf5453a74d20979b31112366b909b34"
+        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b90"
       },
       {
         "@id": "http://purl.org/spar/fabio/Item"
@@ -55,23 +55,7 @@
     ]
   },
   {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b35",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/vocab/frbr/core#exemplarOf"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "http://purl.org/spar/fabio/AnalogManifestation"
-      }
-    ]
-  },
-  {
-    "@id": "_:nea40cf5453a74d20979b31112366b909b34",
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b89",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -83,6 +67,22 @@
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
         "@id": "http://purl.org/spar/fabio/AnalogStorageMedium"
+      }
+    ]
+  },
+  {
+    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b90",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/vocab/frbr/core#exemplarOf"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/fabio/AnalogManifestation"
       }
     ]
   }

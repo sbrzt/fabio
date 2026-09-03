@@ -12,8 +12,8 @@
             fabio:hasPII 'S0169-7161(26)00123-4' .
     </vann:example>
     <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Publisher_Item_Identifier"/>
-    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
+    <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
     <rdfs:label xml:lang="en">has PII</rdfs:label>
     <rdfs:comment xml:lang="en">A unique identifier used by several scientific journal publishers to identify resources.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>

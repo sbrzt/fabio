@@ -9,7 +9,7 @@
   <rdf:Description rdf:about="http://purl.org/spar/fabio/JournalVolume">
     <rdfs:comment xml:lang="en">A particular published volume of a journal, comprising one or more journal issues.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b91"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b96"/>
     <vann:example>
         :my-journal-volume a fabio:JournalVolume ;
             dcterms:title 'Journal of Semantic Web Research, Volume 1'@en ;
@@ -21,9 +21,9 @@
     <rdfs:label xml:lang="en">journal volume</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b91">
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b96">
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Journal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
   </rdf:Description>
 </rdf:RDF>

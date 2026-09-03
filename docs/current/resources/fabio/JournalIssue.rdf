@@ -8,7 +8,7 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/JournalIssue">
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b89"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b108"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
     <vann:example>
         :my-journal-issue a fabio:JournalIssue ;
@@ -21,7 +21,7 @@
     <rdfs:label xml:lang="en">journal issue</rdfs:label>
     <rdfs:comment xml:lang="en">A particular published issue of a journal, one or more of which will constitute a volume of the journal.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b89">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b108">
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/JournalVolume"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>

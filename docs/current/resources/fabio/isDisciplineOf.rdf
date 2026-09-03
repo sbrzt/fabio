@@ -6,6 +6,10 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b78">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b79"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/isDisciplineOf">
     <rdfs:comment xml:lang="en">The discipline belonging to a certain subject vocabulary.</rdfs:comment>
     <vann:example>
@@ -13,8 +17,8 @@
             skos:prefLabel 'Ontology Engineering'@en ;
             fabio:isDisciplineOf :my-research-paper .
     </vann:example>
+    <rdfs:range rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b78"/>
     <owl:propertyDisjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-    <rdfs:range rdf:nodeID="nea40cf5453a74d20979b31112366b909b11"/>
     <rdfs:domain rdf:resource="http://purl.org/spar/fabio/SubjectDiscipline"/>
     <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -22,16 +26,12 @@
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <rdfs:label xml:lang="en">is discipline of</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b11">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b12"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b12">
-    <rdf:rest rdf:nodeID="nea40cf5453a74d20979b31112366b909b13"/>
-    <rdf:first rdf:resource="http://purl.org/spar/fabio/TermDictionary"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b13">
-    <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b80">
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b79">
+    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b80"/>
+    <rdf:first rdf:resource="http://purl.org/spar/fabio/TermDictionary"/>
   </rdf:Description>
 </rdf:RDF>

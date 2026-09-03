@@ -10,9 +10,9 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
-    <rdfs:comment xml:lang="en">A particular published issue of a newspaper, identified by date, and sometimes also by place or time (e.g. 'Late London Edition').</rdfs:comment>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b111"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b110"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+    <rdfs:comment xml:lang="en">A particular published issue of a newspaper, identified by date, and sometimes also by place or time (e.g. 'Late London Edition').</rdfs:comment>
     <vann:example>
         :my-newspaper-issue a fabio:NewspaperIssue ;
             dcterms:title 'The New York Times - Edition of April 28, 2026'@en ;
@@ -21,9 +21,9 @@
     </vann:example>
     <rdfs:label xml:lang="en">newspaper issue</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b111">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b110">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
 </rdf:RDF>

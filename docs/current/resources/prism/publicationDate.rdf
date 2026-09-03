@@ -7,18 +7,17 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b24">
-    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b23">
-    <rdf:rest rdf:nodeID="nea40cf5453a74d20979b31112366b909b24"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b3">
+    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b4"/>
     <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b2">
+    <rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b3"/>
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://prismstandard.org/namespaces/basic/2.0/publicationDate">
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
-    <rdfs:range rdf:nodeID="nea40cf5453a74d20979b31112366b909b21"/>
     <rdfs:label xml:lang="en">has publication date</rdfs:label>
     <vann:example>
         :my-paperback a fabio:Paperback ;
@@ -27,6 +26,7 @@
     <rdfs:comment xml:lang="en">The date on which a resource is published or disclosed.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:range rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b1"/>
     <skos:note xml:lang="en">
 The date can be expressed in three different formats:
 - yyyy-mm-dd (i.e., xsd:date)
@@ -35,12 +35,12 @@ The date can be expressed in three different formats:
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/issued"/>
     <rdfs:isDefinedBy rdf:resource="http://prismstandard.org/namespaces/basic/2.0/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b21">
-    <owl:unionOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b22"/>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b4">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b22">
-    <rdf:rest rdf:nodeID="nea40cf5453a74d20979b31112366b909b23"/>
-    <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b1">
+    <owl:unionOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
   </rdf:Description>
 </rdf:RDF>

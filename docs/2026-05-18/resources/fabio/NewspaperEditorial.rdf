@@ -8,7 +8,7 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/NewspaperEditorial">
     <rdfs:label xml:lang="en">newspaper editorial</rdfs:label>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b110"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b31"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Editorial"/>
     <vann:example>
         :my-newspaper-editorial a fabio:NewspaperEditorial ;
@@ -21,9 +21,9 @@
     <rdfs:comment xml:lang="en">An editorial published in an issue of a newspaper.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b110">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b31">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/NewspaperIssue"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
   </rdf:Description>
 </rdf:RDF>

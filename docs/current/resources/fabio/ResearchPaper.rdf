@@ -7,8 +7,8 @@
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/ResearchPaper">
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ScholarlyWork"/>
     <rdfs:label xml:lang="en">research paper</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/ScholarlyWork"/>
     <vann:example>
         :my-research-paper a fabio:ResearchPaper ;
             dcterms:creator :john-doe ;

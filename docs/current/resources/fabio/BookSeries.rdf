@@ -10,9 +10,9 @@
   <rdf:Description rdf:about="http://purl.org/spar/fabio/BookSeries">
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:label xml:lang="en">book series</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:nodeID="nea40cf5453a74d20979b31112366b909b46"/>
+    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b10"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Series"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <vann:example>
         :my-book-series a fabio:BookSeries ;
             dcterms:title 'Lecture Notes in Computer Science'@en ;
@@ -25,7 +25,7 @@
     <owl:disjointWith rdf:resource="http://purl.org/spar/fabio/BookSet"/>
     <skos:note xml:lang="en">Examples include the books in the Law, Governance and Technology Series published by Springer.</skos:note>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="nea40cf5453a74d20979b31112366b909b46">
+  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b10">
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#part"/>
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Book"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
