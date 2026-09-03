@@ -1,0 +1,25 @@
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b132 .
+_:n584f50b3c9f447dda23e912c314ed7a7b136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n584f50b3c9f447dda23e912c314ed7a7b134 .
+_:n584f50b3c9f447dda23e912c314ed7a7b133 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/vocab/frbr/core#Work> .
+_:n584f50b3c9f447dda23e912c314ed7a7b133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+_:n584f50b3c9f447dda23e912c314ed7a7b135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b136 .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n584f50b3c9f447dda23e912c314ed7a7b137 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#realization> .
+_:n584f50b3c9f447dda23e912c314ed7a7b134 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/vocab/frbr/core#Work> .
+_:n584f50b3c9f447dda23e912c314ed7a7b132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/Work> <http://purl.org/vocab/vann/example> "\n        :my-work a fabio:Work ;\n            dcterms:title 'Towards a new Semantic Web'@en ;\n            frbr:realization :my-expression ;\n            dcterms:description 'A conceptual endeavor as imagined by its creator.'@en .\n    " .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b137 .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> .
+_:n584f50b3c9f447dda23e912c314ed7a7b136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2000/01/rdf-schema#comment> "A subclass of FRBR Work, restricted to works that are published or potentially publishable, and that contain or are referred to by bibliographic references, or entities used to define bibliographic references."@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b133 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#part> .
+_:n584f50b3c9f447dda23e912c314ed7a7b137 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/fabio/Expression> .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2004/02/skos/core#note> "FaBiO works, and their expressions and manifestations, are primarily textual publications such as books, magazines, newspapers and journals, and items of their content. However, they also include datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also bibliographies, reference lists, library catalogues and similar collections. For this reason, `fabio:Work` is not an equivalent class to `frbr:ScholarlyWork`. An example of a `fabio:Work` is your latest research paper. \n    \nA `fabio:Work` can only have part or be part of another `fabio:Work`. Moreover, it can be realized only by instances of `fabio:Expression`."@en .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n584f50b3c9f447dda23e912c314ed7a7b132 <http://www.w3.org/2002/07/owl#intersectionOf> _:n584f50b3c9f447dda23e912c314ed7a7b135 .
+<http://purl.org/spar/fabio/Work> <http://www.w3.org/2000/01/rdf-schema#label> "work"@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n584f50b3c9f447dda23e912c314ed7a7b135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n584f50b3c9f447dda23e912c314ed7a7b133 .
+_:n584f50b3c9f447dda23e912c314ed7a7b137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n584f50b3c9f447dda23e912c314ed7a7b134 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#partOf> .

@@ -1,0 +1,19 @@
+_:n584f50b3c9f447dda23e912c314ed7a7b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b4 .
+_:n584f50b3c9f447dda23e912c314ed7a7b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b3 .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Endeavour> .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n584f50b3c9f447dda23e912c314ed7a7b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2000/01/rdf-schema#label> "has publication date"@en .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://purl.org/vocab/vann/example> "\n        :my-paperback a fabio:Paperback ;\n            prism:publicationDate '2007-06'^^xsd:gYearMonth .\n    " .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which a resource is published or disclosed."@en .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+_:n584f50b3c9f447dda23e912c314ed7a7b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#gYearMonth> .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2000/01/rdf-schema#range> _:n584f50b3c9f447dda23e912c314ed7a7b1 .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+_:n584f50b3c9f447dda23e912c314ed7a7b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2004/02/skos/core#note> "\nThe date can be expressed in three different formats:\n- yyyy-mm-dd (i.e., xsd:date)\n- yyyy-mm (i.e., xsd:gYearMonth)\n- yyyy (i.e., xsd:gYear)"@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#date> .
+_:n584f50b3c9f447dda23e912c314ed7a7b1 <http://www.w3.org/2002/07/owl#unionOf> _:n584f50b3c9f447dda23e912c314ed7a7b2 .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/issued> .
+_:n584f50b3c9f447dda23e912c314ed7a7b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://prismstandard.org/namespaces/basic/2.0/publicationDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://prismstandard.org/namespaces/basic/2.0/> .

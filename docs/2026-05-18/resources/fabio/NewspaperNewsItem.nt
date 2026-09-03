@@ -1,0 +1,11 @@
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/2000/01/rdf-schema#label> "newspaper news item"@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://purl.org/vocab/vann/example> "\n        :my-newspaper-news-item a fabio:NewspaperNewsItem ;\n            dcterms:title 'Roadworks in Bubble Avenue'@en ;\n            frbr:partOf :my-newspaper-issue ;\n            dcterms:description 'A short news report published in a newspaper, typically concerning current events or social announcements.'@en .\n    " .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/2000/01/rdf-schema#comment> "A news report published in a newspaper issue."@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b32 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#partOf> .
+_:n584f50b3c9f447dda23e912c314ed7a7b32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/fabio/NewspaperIssue> .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b32 .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/NewsItem> .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+<http://purl.org/spar/fabio/NewspaperNewsItem> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .

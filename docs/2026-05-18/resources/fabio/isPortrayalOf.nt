@@ -1,0 +1,17 @@
+_:n584f50b3c9f447dda23e912c314ed7a7b85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#realizationOf> .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://purl.org/vocab/vann/example> "\n        :my-item a fabio:Item;\n            fabio:isPortrayalOf :my-work .\n    " .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2000/01/rdf-schema#comment> "The work of an item."@en .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Item> .
+_:n584f50b3c9f447dda23e912c314ed7a7b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b84 .
+_:n584f50b3c9f447dda23e912c314ed7a7b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b85 .
+_:n584f50b3c9f447dda23e912c314ed7a7b85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:n584f50b3c9f447dda23e912c314ed7a7b83 .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+_:n584f50b3c9f447dda23e912c314ed7a7b83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#exemplarOf> .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/vocab/frbr/core#relatedEndeavour> .
+_:n584f50b3c9f447dda23e912c314ed7a7b84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/vocab/frbr/core#embodimentOf> .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2000/01/rdf-schema#label> "is portrayal of"@en .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2004/02/skos/core#note> "This property is additional to the relationships between FRBR endeavours present in the classical FRBR data model."@en .
+<http://purl.org/spar/fabio/isPortrayalOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/vocab/frbr/core#Work> .

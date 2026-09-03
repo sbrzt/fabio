@@ -1,0 +1,22 @@
+_:n584f50b3c9f447dda23e912c314ed7a7b36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://purl.org/vocab/vann/example> "\n        :my-periodical-item a fabio:PeriodicalItem ;\n            dcterms:title 'The future of open science'@en ;\n            frbr:partOf :my-periodical-issue , :my-periodical-volume ;\n            dcterms:description 'An item published within an issue of a periodical.'@en .\n    " .
+_:n584f50b3c9f447dda23e912c314ed7a7b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n584f50b3c9f447dda23e912c314ed7a7b37 .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://www.w3.org/2000/01/rdf-schema#label> "periodical item"@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b42 .
+_:n584f50b3c9f447dda23e912c314ed7a7b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/PeriodicalVolume> .
+_:n584f50b3c9f447dda23e912c314ed7a7b36 <http://www.w3.org/2002/07/owl#intersectionOf> _:n584f50b3c9f447dda23e912c314ed7a7b41 .
+_:n584f50b3c9f447dda23e912c314ed7a7b41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/Expression> .
+_:n584f50b3c9f447dda23e912c314ed7a7b37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://www.w3.org/2002/07/owl#equivalentClass> _:n584f50b3c9f447dda23e912c314ed7a7b36 .
+_:n584f50b3c9f447dda23e912c314ed7a7b37 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#partOf> .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://www.w3.org/2000/01/rdf-schema#comment> "A piece of writing published in a periodical issue, typically accompanied by other items by different authors."@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b37 <http://www.w3.org/2002/07/owl#someValuesFrom> _:n584f50b3c9f447dda23e912c314ed7a7b38 .
+_:n584f50b3c9f447dda23e912c314ed7a7b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b40 .
+_:n584f50b3c9f447dda23e912c314ed7a7b39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/PeriodicalIssue> .
+_:n584f50b3c9f447dda23e912c314ed7a7b38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/fabio/PeriodicalItem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+_:n584f50b3c9f447dda23e912c314ed7a7b38 <http://www.w3.org/2002/07/owl#unionOf> _:n584f50b3c9f447dda23e912c314ed7a7b39 .
+_:n584f50b3c9f447dda23e912c314ed7a7b42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n584f50b3c9f447dda23e912c314ed7a7b40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .

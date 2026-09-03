@@ -1,0 +1,15 @@
+_:n584f50b3c9f447dda23e912c314ed7a7b155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/BachelorsThesis> .
+_:n584f50b3c9f447dda23e912c314ed7a7b157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n584f50b3c9f447dda23e912c314ed7a7b155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b156 .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://purl.org/vocab/vann/example> "\n        :my-doctoral-thesis a fabio:DoctoralThesis ;\n            dcterms:title 'Scalable Error Correction in Quantum Computing Architecture'@en ;\n            dcterms:description 'A thesis presented for the degree of Doctor of Philosophy.'@en .\n    " .
+_:n584f50b3c9f447dda23e912c314ed7a7b156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b157 .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://www.w3.org/2000/01/rdf-schema#comment> "A thesis reporting the research undertaken during a period of graduate study leading to a doctoral degree."@en .
+_:n584f50b3c9f447dda23e912c314ed7a7b157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/MastersThesis> .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://www.w3.org/2000/01/rdf-schema#label> "doctoral thesis"@en .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Thesis> .
+<http://purl.org/spar/fabio/DoctoralThesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n584f50b3c9f447dda23e912c314ed7a7b154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:n584f50b3c9f447dda23e912c314ed7a7b154 <http://www.w3.org/2002/07/owl#members> _:n584f50b3c9f447dda23e912c314ed7a7b155 .
+_:n584f50b3c9f447dda23e912c314ed7a7b156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/spar/fabio/DoctoralThesis> .
