@@ -6,14 +6,9 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b45">
-    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/ReferenceWork"/>
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/ReferenceEntry">
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b45"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Entry"/>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b45"/>
     <rdfs:label xml:lang="en">reference entry</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:comment xml:lang="en">A particular reference entry containing authoritative factual information on a certain topic, usually contained in a larger expression.</rdfs:comment>
@@ -25,5 +20,10 @@
             frbr:realizationOf :my-reference-work ;
             dcterms:description 'A discrete item of information in a reference book, such as a dictionary entry or an encyclopedia article.'@en .
     </vann:example>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b45">
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/ReferenceWork"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
 </rdf:RDF>

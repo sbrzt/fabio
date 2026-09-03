@@ -12,15 +12,15 @@
     </vann:example>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/StorageMedium"/>
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b131"/>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b131"/>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
     <rdfs:comment xml:lang="en">A means of storing information in digital form, involving binary encoding of data in 0s and 1s, e.g. a computer random access memory, hard disc, USB stick, CD, DVD or digital magnetic tape.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <rdfs:label xml:lang="en">digital storage medium</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b131">
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b131">
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/DigitalItem"/>
     <owl:onProperty rdf:resource="http://purl.org/spar/fabio/stores"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:resource="http://purl.org/spar/fabio/DigitalItem"/>
   </rdf:Description>
 </rdf:RDF>

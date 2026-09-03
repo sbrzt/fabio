@@ -1,11 +1,11 @@
-_:n584f50b3c9f447dda23e912c314ed7a7b16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#part> .
-_:n584f50b3c9f447dda23e912c314ed7a7b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/fabio/Diary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n74c2f1bcb5f8430d85cfb3f233e5a831b16 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/fabio/Entry> .
 <http://purl.org/spar/fabio/Diary> <http://www.w3.org/2000/01/rdf-schema#label> "diary"@en .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b16 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/vocab/frbr/core#part> .
 <http://purl.org/spar/fabio/Diary> <http://www.w3.org/2000/01/rdf-schema#comment> "A personal record, in a form of book, with discrete entries (often handwritten) arranged by date, reporting what has happened over the course of a day or other period of time."@en .
 <http://purl.org/spar/fabio/Diary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
 <http://purl.org/spar/fabio/Diary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/fabio/Notebook> .
-_:n584f50b3c9f447dda23e912c314ed7a7b16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/fabio/Entry> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://purl.org/spar/fabio/Diary> <http://purl.org/vocab/vann/example> "\n        :my-diary a fabio:Diary ;\n            dcterms:title 'John's personal diary'@en ;\n            dcterms:creator :john-doe ;\n            frbr:part :my-entry ;\n            dcterms:description 'A record of personal experiences, thoughts, and daily events, kept regularly by an individual.'@en .\n    " .
-<http://purl.org/spar/fabio/Diary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b16 .
 <http://purl.org/spar/fabio/Diary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/spar/fabio/Diary> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .

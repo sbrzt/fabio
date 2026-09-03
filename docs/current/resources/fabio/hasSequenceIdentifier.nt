@@ -1,6 +1,6 @@
-<http://purl.org/spar/fabio/hasSequenceIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "has number"@en .
 <http://purl.org/spar/fabio/hasSequenceIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "A literal (for example a number or a letter) that identifies the sequence position of a work within a particular context, for example a book in a book series, a chapter in a document, a volume in a journal."@en .
 <http://purl.org/spar/fabio/hasSequenceIdentifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/fabio/> .
+<http://purl.org/spar/fabio/hasSequenceIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "has sequence identifier"@en .
 <http://purl.org/spar/fabio/hasSequenceIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/vocab/frbr/core#Endeavour> .
 <http://purl.org/spar/fabio/hasSequenceIdentifier> <http://purl.org/vocab/vann/example> "\n        :my-journal-article a fabio:JournalArticle ;\n            fabio:hasSequenceIdentifier '1' .\n    " .
 <http://purl.org/spar/fabio/hasSequenceIdentifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .

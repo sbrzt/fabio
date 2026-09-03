@@ -3,12 +3,12 @@ The ***FRBR-aligned Bibliographic Ontology (FaBiO)*** is an ontology for recordi
 FaBiO entities are primarily textual publications such as books, magazines, newspapers and journals, and items of their content such as poems, conference papers and editorials. 
 However, they also include blogs, web pages, datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also anthologies, catalogues and similar collections.
 
-FaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., FRBR, DC Terms, PRISM and SKOS. 
+FaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., [FRBR](http://purl.org/vocab/frbr/core#), [DC Terms](http://purl.org/dc/terms/), [PRISM](http://prismstandard.org/namespaces/basic/2.0/) and [SKOS](http://www.w3.org/2004/02/skos/core#). 
 In addition, FaBiO has been developed so to limit any restriction to its classes as well as the domains and ranges of its properties. 
 This flexibility has the great advantage of allowing FaBiO to be used together with other models.
 
-In particular, FaBiO classes are structured according to the FRBR schema of Works, Expressions, Manifestations and Items. 
-The following Graffoo diagram shows additional properties that have been added to extends the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).
+In particular, FaBiO classes are structured according to the FRBR schema of _Works_, _Expressions_, _Manifestations_ and _Items_. 
+FaBiO add more properties to extend the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).
 
 ![The architecture of FaBiO.](fabio.png)
 
@@ -43,7 +43,10 @@ The prefixes that are used in all the examples provided below are defined as fol
 
 FaBiO allows one to describe information related to a bibliographic entity such as the following one:
 
-&gt; Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
+    Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). 
+    OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and 
+    Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. 
+    Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
 
 From the previous reference we can extract the following information:
 
@@ -385,18 +388,18 @@ fabio:MagazineArticle a owl:Class ;
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b26">
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b26">
     &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     &lt;owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
     &lt;owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/MagazineIssue"/>
   &lt;/rdf:Description>
   &lt;rdf:Description rdf:about="http://purl.org/spar/fabio/MagazineArticle">
     &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    &lt;rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b26"/>
+    &lt;rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
     &lt;rdfs:comment xml:lang="en">An article published in a magazine issue.&lt;/rdfs:comment>
     &lt;rdfs:label xml:lang="en">magazine article&lt;/rdfs:label>
     &lt;rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
-    &lt;rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
-    &lt;rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b26"/>
     &lt;vann:example>
         :my-magazine-article a fabio:MagazineArticle ;
             dcterms:title 'The Future of Arctic Ice: A 2026 Perspective'@en ;
@@ -436,10 +439,10 @@ fabio:MagazineArticle a owl:Class ;
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/fabio/Article"
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b26"
       },
       {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b26"
+        "@id": "http://purl.org/spar/fabio/Article"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -449,7 +452,7 @@ fabio:MagazineArticle a owl:Class ;
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b26",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b26",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -464,17 +467,17 @@ fabio:MagazineArticle a owl:Class ;
       }
     ]
   }
-]</code></pre></div><div class="tab-pane fade" id=id_2838f8441d438075ada56cb725d5bae6_Concept_prov_4 role=tabpanel><pre class="mb-0 small"><code>_:n584f50b3c9f447dda23e912c314ed7a7b26 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> .
+]</code></pre></div><div class="tab-pane fade" id=id_2838f8441d438075ada56cb725d5bae6_Concept_prov_4 role=tabpanel><pre class="mb-0 small"><code>_:n74c2f1bcb5f8430d85cfb3f233e5a831b26 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> &lt;http://purl.org/spar/fabio/MagazineIssue> .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
-_:n584f50b3c9f447dda23e912c314ed7a7b26 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://purl.org/vocab/frbr/core#partOf> .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> &lt;http://purl.org/linked-data/registry#statusStable> .
-_:n584f50b3c9f447dda23e912c314ed7a7b26 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> &lt;http://purl.org/spar/fabio/MagazineIssue> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b26 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://purl.org/vocab/frbr/core#partOf> .
+&lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n74c2f1bcb5f8430d85cfb3f233e5a831b26 .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://purl.org/vocab/vann/example> "\n        :my-magazine-article a fabio:MagazineArticle ;\n            dcterms:title 'The Future of Arctic Ice: A 2026 Perspective'@en ;\n            frbr:partOf :my-magazine-issue ;\n            dcterms:description 'An article published in a magazine, typically written for a general audience.'@en .\n    " .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2000/01/rdf-schema#comment> "An article published in a magazine issue."@en .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2000/01/rdf-schema#label> "magazine article"@en .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy> &lt;http://purl.org/spar/fabio/> .
 &lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> &lt;http://purl.org/spar/fabio/Article> .
-&lt;http://purl.org/spar/fabio/MagazineArticle> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b26 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b26 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> .
 </code></pre></div></div></div></div></div></div></div></div></div></div><div><a class="btn btn-outline-secondary" href=../../index.html>← Back to full documentation</a></div><script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js></script><script src=https://cdn.jsdelivr.net/npm/marked/marked.min.js></script><script src=https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js></script><script>document.addEventListener("DOMContentLoaded", function() {
 
                 // Security hooks

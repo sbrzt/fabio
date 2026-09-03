@@ -6,9 +6,9 @@
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
   <rdf:Description rdf:about="http://purl.org/spar/fabio/hasSequenceIdentifier">
-    <rdfs:label xml:lang="en">has number</rdfs:label>
     <rdfs:comment xml:lang="en">A literal (for example a number or a letter) that identifies the sequence position of a work within a particular context, for example a book in a book series, a chapter in a document, a volume in a journal.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
+    <rdfs:label xml:lang="en">has sequence identifier</rdfs:label>
     <rdfs:domain rdf:resource="http://purl.org/vocab/frbr/core#Endeavour"/>
     <vann:example>
         :my-journal-article a fabio:JournalArticle ;

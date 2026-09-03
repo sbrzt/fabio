@@ -3,12 +3,12 @@ The ***FRBR-aligned Bibliographic Ontology (FaBiO)*** is an ontology for recordi
 FaBiO entities are primarily textual publications such as books, magazines, newspapers and journals, and items of their content such as poems, conference papers and editorials. 
 However, they also include blogs, web pages, datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also anthologies, catalogues and similar collections.
 
-FaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., FRBR, DC Terms, PRISM and SKOS. 
+FaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., [FRBR](http://purl.org/vocab/frbr/core#), [DC Terms](http://purl.org/dc/terms/), [PRISM](http://prismstandard.org/namespaces/basic/2.0/) and [SKOS](http://www.w3.org/2004/02/skos/core#). 
 In addition, FaBiO has been developed so to limit any restriction to its classes as well as the domains and ranges of its properties. 
 This flexibility has the great advantage of allowing FaBiO to be used together with other models.
 
-In particular, FaBiO classes are structured according to the FRBR schema of Works, Expressions, Manifestations and Items. 
-The following Graffoo diagram shows additional properties that have been added to extends the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).
+In particular, FaBiO classes are structured according to the FRBR schema of _Works_, _Expressions_, _Manifestations_ and _Items_. 
+FaBiO add more properties to extend the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).
 
 ![The architecture of FaBiO.](fabio.png)
 
@@ -43,7 +43,10 @@ The prefixes that are used in all the examples provided below are defined as fol
 
 FaBiO allows one to describe information related to a bibliographic entity such as the following one:
 
-&gt; Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
+    Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). 
+    OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and 
+    Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. 
+    Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
 
 From the previous reference we can extract the following information:
 
@@ -385,17 +388,12 @@ fabio:NewspaperIssue a owl:Class ;
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b110">
-    &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    &lt;owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
-    &lt;owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
-  &lt;/rdf:Description>
   &lt;rdf:Description rdf:about="http://purl.org/spar/fabio/NewspaperIssue">
     &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     &lt;rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
-    &lt;rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b110"/>
-    &lt;rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
     &lt;rdfs:comment xml:lang="en">A particular published issue of a newspaper, identified by date, and sometimes also by place or time (e.g. 'Late London Edition').&lt;/rdfs:comment>
+    &lt;rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b110"/>
+    &lt;rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
     &lt;rdfs:label xml:lang="en">newspaper issue&lt;/rdfs:label>
     &lt;vann:example>
         :my-newspaper-issue a fabio:NewspaperIssue ;
@@ -404,6 +402,11 @@ fabio:NewspaperIssue a owl:Class ;
             dcterms:description 'A particular issue of a newspaper.'@en .
     &lt;/vann:example>
     &lt;vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b110">
+    &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    &lt;owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    &lt;owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Newspaper"/>
   &lt;/rdf:Description>
 &lt;/rdf:RDF>
 </code></pre></div><div class="tab-pane fade" id=id_03df554b57220a201fc7bcf2859b97c3_Concept_prov_3 role=tabpanel><pre class="mb-0 small"><code>[
@@ -436,7 +439,7 @@ fabio:NewspaperIssue a owl:Class ;
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b110"
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b110"
       },
       {
         "@id": "http://purl.org/spar/fabio/PeriodicalIssue"
@@ -449,7 +452,7 @@ fabio:NewspaperIssue a owl:Class ;
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b110",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b110",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -464,14 +467,14 @@ fabio:NewspaperIssue a owl:Class ;
       }
     ]
   }
-]</code></pre></div><div class="tab-pane fade" id=id_03df554b57220a201fc7bcf2859b97c3_Concept_prov_4 role=tabpanel><pre class="mb-0 small"><code>_:n584f50b3c9f447dda23e912c314ed7a7b110 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://purl.org/vocab/frbr/core#partOf> .
-&lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
+]</code></pre></div><div class="tab-pane fade" id=id_03df554b57220a201fc7bcf2859b97c3_Concept_prov_4 role=tabpanel><pre class="mb-0 small"><code>&lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b110 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> .
 &lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy> &lt;http://purl.org/spar/fabio/> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b110 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://purl.org/vocab/frbr/core#partOf> .
 &lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> &lt;http://purl.org/linked-data/registry#statusStable> .
-&lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n584f50b3c9f447dda23e912c314ed7a7b110 .
-_:n584f50b3c9f447dda23e912c314ed7a7b110 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> &lt;http://purl.org/spar/fabio/Newspaper> .
 &lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2000/01/rdf-schema#comment> "A particular published issue of a newspaper, identified by date, and sometimes also by place or time (e.g. 'Late London Edition')."@en .
-_:n584f50b3c9f447dda23e912c314ed7a7b110 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> .
+&lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n74c2f1bcb5f8430d85cfb3f233e5a831b110 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b110 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> &lt;http://purl.org/spar/fabio/Newspaper> .
 &lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://purl.org/vocab/vann/example> "\n        :my-newspaper-issue a fabio:NewspaperIssue ;\n            dcterms:title 'The New York Times - Edition of April 28, 2026'@en ;\n            frbr:partOf :my-newspaper ;\n            dcterms:description 'A particular issue of a newspaper.'@en .\n    " .
 &lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2000/01/rdf-schema#label> "newspaper issue"@en .
 &lt;http://purl.org/spar/fabio/NewspaperIssue> &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> &lt;http://purl.org/spar/fabio/PeriodicalIssue> .

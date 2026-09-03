@@ -3,12 +3,12 @@ The ***FRBR-aligned Bibliographic Ontology (FaBiO)*** is an ontology for recordi
 FaBiO entities are primarily textual publications such as books, magazines, newspapers and journals, and items of their content such as poems, conference papers and editorials. 
 However, they also include blogs, web pages, datasets, computer algorithms, experimental protocols, formal specifications and vocabularies, legal records, governmental papers, technical and commercial reports and similar publications, and also anthologies, catalogues and similar collections.
 
-FaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., FRBR, DC Terms, PRISM and SKOS. 
+FaBiO already imports several entities from existing standards for bibliographic entity descriptions, i.e., [FRBR](http://purl.org/vocab/frbr/core#), [DC Terms](http://purl.org/dc/terms/), [PRISM](http://prismstandard.org/namespaces/basic/2.0/) and [SKOS](http://www.w3.org/2004/02/skos/core#). 
 In addition, FaBiO has been developed so to limit any restriction to its classes as well as the domains and ranges of its properties. 
 This flexibility has the great advantage of allowing FaBiO to be used together with other models.
 
-In particular, FaBiO classes are structured according to the FRBR schema of Works, Expressions, Manifestations and Items. 
-The following Graffoo diagram shows additional properties that have been added to extends the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).
+In particular, FaBiO classes are structured according to the FRBR schema of _Works_, _Expressions_, _Manifestations_ and _Items_. 
+FaBiO add more properties to extend the FRBR data model by linking Works and Manifestations (`fabio:hasManifestation` and `fabio:isManifestationOf`), Works and Items (`fabio:hasPortrayal` and `fabio:isPortrayedBy`), and Expressions and Items (`fabio:hasRepresentation` and `fabio:isRepresentedBy`).
 
 ![The architecture of FaBiO.](fabio.png)
 
@@ -43,7 +43,10 @@ The prefixes that are used in all the examples provided below are defined as fol
 
 FaBiO allows one to describe information related to a bibliographic entity such as the following one:
 
-&gt; Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
+    Pompeu Casanovas, Núria Casellas, Christoph Tempich, Denny Vrandečić, Richard Benjamins (2007). 
+    OPJK and DILIGENT: ontology modeling in a distributed environment. Artificial Intelligence and 
+    Law, 15 (2): 171-186. June 2007. Springer. DOI: 10.1007/s10506-007-9036-2. Print ISSN 0924-8463. 
+    Online ISSN 1572-8382. Published online (PDF) May 31, 2007.
 
 From the previous reference we can extract the following information:
 
@@ -387,12 +390,12 @@ fabio:PeriodicalItem a owl:Class ;
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b36">
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b38">
     &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    &lt;owl:intersectionOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b41"/>
+    &lt;owl:unionOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b39"/>
   &lt;/rdf:Description>
   &lt;rdf:Description rdf:about="http://purl.org/spar/fabio/PeriodicalItem">
-    &lt;owl:equivalentClass rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b36"/>
+    &lt;owl:equivalentClass rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b36"/>
     &lt;rdfs:label xml:lang="en">periodical item&lt;/rdfs:label>
     &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     &lt;rdfs:comment xml:lang="en">A piece of writing published in a periodical issue, typically accompanied by other items by different authors.&lt;/rdfs:comment>
@@ -405,30 +408,30 @@ fabio:PeriodicalItem a owl:Class ;
     &lt;/vann:example>
     &lt;vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
   &lt;/rdf:Description>
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b42">
-    &lt;rdf:first rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b37"/>
-    &lt;rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b39">
+    &lt;rdf:first rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
+    &lt;rdf:rest rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b40"/>
   &lt;/rdf:Description>
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b41">
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b36">
+    &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    &lt;owl:intersectionOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b41"/>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b41">
     &lt;rdf:first rdf:resource="http://purl.org/spar/fabio/Expression"/>
-    &lt;rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b42"/>
+    &lt;rdf:rest rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b42"/>
   &lt;/rdf:Description>
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b40">
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b37">
+    &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    &lt;owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
+    &lt;owl:someValuesFrom rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b38"/>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b40">
     &lt;rdf:first rdf:resource="http://purl.org/spar/fabio/PeriodicalVolume"/>
     &lt;rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   &lt;/rdf:Description>
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b37">
-    &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    &lt;owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#partOf"/>
-    &lt;owl:someValuesFrom rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b38"/>
-  &lt;/rdf:Description>
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b39">
-    &lt;rdf:first rdf:resource="http://purl.org/spar/fabio/PeriodicalIssue"/>
-    &lt;rdf:rest rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b40"/>
-  &lt;/rdf:Description>
-  &lt;rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b38">
-    &lt;rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    &lt;owl:unionOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b39"/>
+  &lt;rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b42">
+    &lt;rdf:first rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b37"/>
+    &lt;rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   &lt;/rdf:Description>
 &lt;/rdf:RDF>
 </code></pre></div><div class="tab-pane fade" id=id_1ea50ce4916be19747438b6f3997b062_Concept_prov_3 role=tabpanel><pre class="mb-0 small"><code>[
@@ -461,7 +464,7 @@ fabio:PeriodicalItem a owl:Class ;
     ],
     "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b36"
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b36"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -471,7 +474,7 @@ fabio:PeriodicalItem a owl:Class ;
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b36",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b36",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -482,14 +485,14 @@ fabio:PeriodicalItem a owl:Class ;
             "@id": "http://purl.org/spar/fabio/Expression"
           },
           {
-            "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b37"
+            "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b37"
           }
         ]
       }
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b37",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b37",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -500,12 +503,12 @@ fabio:PeriodicalItem a owl:Class ;
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
       {
-        "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b38"
+        "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b38"
       }
     ]
   },
   {
-    "@id": "_:n584f50b3c9f447dda23e912c314ed7a7b38",
+    "@id": "_:n74c2f1bcb5f8430d85cfb3f233e5a831b38",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
@@ -522,28 +525,28 @@ fabio:PeriodicalItem a owl:Class ;
       }
     ]
   }
-]</code></pre></div><div class="tab-pane fade" id=id_1ea50ce4916be19747438b6f3997b062_Concept_prov_4 role=tabpanel><pre class="mb-0 small"><code>_:n584f50b3c9f447dda23e912c314ed7a7b36 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
+]</code></pre></div><div class="tab-pane fade" id=id_1ea50ce4916be19747438b6f3997b062_Concept_prov_4 role=tabpanel><pre class="mb-0 small"><code>_:n74c2f1bcb5f8430d85cfb3f233e5a831b38 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
 &lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://purl.org/vocab/vann/example> "\n        :my-periodical-item a fabio:PeriodicalItem ;\n            dcterms:title 'The future of open science'@en ;\n            frbr:partOf :my-periodical-issue , :my-periodical-volume ;\n            dcterms:description 'An item published within an issue of a periodical.'@en .\n    " .
-_:n584f50b3c9f447dda23e912c314ed7a7b42 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n584f50b3c9f447dda23e912c314ed7a7b37 .
 &lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> &lt;http://purl.org/linked-data/registry#statusStable> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b38 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n74c2f1bcb5f8430d85cfb3f233e5a831b39 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b39 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n74c2f1bcb5f8430d85cfb3f233e5a831b40 .
 &lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/2000/01/rdf-schema#label> "periodical item"@en .
-_:n584f50b3c9f447dda23e912c314ed7a7b41 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b42 .
-_:n584f50b3c9f447dda23e912c314ed7a7b40 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://purl.org/spar/fabio/PeriodicalVolume> .
-_:n584f50b3c9f447dda23e912c314ed7a7b36 &lt;http://www.w3.org/2002/07/owl#intersectionOf> _:n584f50b3c9f447dda23e912c314ed7a7b41 .
-_:n584f50b3c9f447dda23e912c314ed7a7b40 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n584f50b3c9f447dda23e912c314ed7a7b41 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://purl.org/spar/fabio/Expression> .
-_:n584f50b3c9f447dda23e912c314ed7a7b37 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> .
-&lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/2002/07/owl#equivalentClass> _:n584f50b3c9f447dda23e912c314ed7a7b36 .
-_:n584f50b3c9f447dda23e912c314ed7a7b37 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://purl.org/vocab/frbr/core#partOf> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b36 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b36 &lt;http://www.w3.org/2002/07/owl#intersectionOf> _:n74c2f1bcb5f8430d85cfb3f233e5a831b41 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b41 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://purl.org/spar/fabio/Expression> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b37 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Restriction> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b37 &lt;http://www.w3.org/2002/07/owl#onProperty> &lt;http://purl.org/vocab/frbr/core#partOf> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b40 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://purl.org/spar/fabio/PeriodicalVolume> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b39 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://purl.org/spar/fabio/PeriodicalIssue> .
+&lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/2002/07/owl#equivalentClass> _:n74c2f1bcb5f8430d85cfb3f233e5a831b36 .
 &lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
 &lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/2000/01/rdf-schema#comment> "A piece of writing published in a periodical issue, typically accompanied by other items by different authors."@en .
-_:n584f50b3c9f447dda23e912c314ed7a7b39 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n584f50b3c9f447dda23e912c314ed7a7b40 .
-_:n584f50b3c9f447dda23e912c314ed7a7b39 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> &lt;http://purl.org/spar/fabio/PeriodicalIssue> .
-_:n584f50b3c9f447dda23e912c314ed7a7b38 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://www.w3.org/2002/07/owl#Class> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b42 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b40 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b41 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n74c2f1bcb5f8430d85cfb3f233e5a831b42 .
 &lt;http://purl.org/spar/fabio/PeriodicalItem> &lt;http://www.w3.org/2000/01/rdf-schema#isDefinedBy> &lt;http://purl.org/spar/fabio/> .
-_:n584f50b3c9f447dda23e912c314ed7a7b38 &lt;http://www.w3.org/2002/07/owl#unionOf> _:n584f50b3c9f447dda23e912c314ed7a7b39 .
-_:n584f50b3c9f447dda23e912c314ed7a7b42 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:n584f50b3c9f447dda23e912c314ed7a7b37 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> _:n584f50b3c9f447dda23e912c314ed7a7b38 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b42 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:n74c2f1bcb5f8430d85cfb3f233e5a831b37 .
+_:n74c2f1bcb5f8430d85cfb3f233e5a831b37 &lt;http://www.w3.org/2002/07/owl#someValuesFrom> _:n74c2f1bcb5f8430d85cfb3f233e5a831b38 .
 </code></pre></div></div></div></div></div></div></div></div></div></div><div><a class="btn btn-outline-secondary" href=../../index.html>← Back to full documentation</a></div><script src=https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js></script><script src=https://cdn.jsdelivr.net/npm/marked/marked.min.js></script><script src=https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js></script><script>document.addEventListener("DOMContentLoaded", function() {
 
                 // Security hooks

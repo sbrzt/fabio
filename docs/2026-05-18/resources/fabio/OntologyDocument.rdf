@@ -7,10 +7,10 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
-  <rdf:Description rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b33">
+  <rdf:Description rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Ontology"/>
     <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/OntologyDocument">
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
@@ -23,9 +23,9 @@
             frbr:realizationOf :my-ontology ;
             dcterms:description 'A document consisting entirely of an ontology, or a part of an ontology.'@en .
     </vann:example>
-    <rdfs:comment xml:lang="en">A document containing an ontology.</rdfs:comment>
+    <rdfs:subClassOf rdf:nodeID="n74c2f1bcb5f8430d85cfb3f233e5a831b33"/>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/VocabularyDocument"/>
-    <rdfs:subClassOf rdf:nodeID="n584f50b3c9f447dda23e912c314ed7a7b33"/>
+    <rdfs:comment xml:lang="en">A document containing an ontology.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
   </rdf:Description>
 </rdf:RDF>
