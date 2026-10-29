@@ -28,16 +28,16 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nc2534d39d31a404c8051419731cd4b5eb7"
+        "@id": "_:ncae38abf83ba4d328dfdd9c9da48eef6b7"
       },
       {
         "@id": "http://purl.org/spar/fabio/WorkCollection"
       },
       {
-        "@id": "_:nc2534d39d31a404c8051419731cd4b5eb5"
+        "@id": "_:ncae38abf83ba4d328dfdd9c9da48eef6b5"
       },
       {
-        "@id": "_:nc2534d39d31a404c8051419731cd4b5eb6"
+        "@id": "_:ncae38abf83ba4d328dfdd9c9da48eef6b6"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "@id": "_:nc2534d39d31a404c8051419731cd4b5eb7",
+    "@id": "_:ncae38abf83ba4d328dfdd9c9da48eef6b7",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "@id": "_:nc2534d39d31a404c8051419731cd4b5eb5",
+    "@id": "_:ncae38abf83ba4d328dfdd9c9da48eef6b5",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -79,7 +79,7 @@
     ]
   },
   {
-    "@id": "_:nc2534d39d31a404c8051419731cd4b5eb6",
+    "@id": "_:ncae38abf83ba4d328dfdd9c9da48eef6b6",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
