@@ -4,6 +4,7 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Work">
+    <rdfs:label xml:lang="en">work</rdfs:label>
     <rdfs:comment xml:lang="en">
 A distinct intellectual or artistic creation.
 
@@ -11,6 +12,5 @@ A work is an abstract entity; there is no single material object one can point t
         </rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/frbr/core#"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label xml:lang="en">work</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

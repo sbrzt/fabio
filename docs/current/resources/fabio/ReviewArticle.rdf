@@ -6,24 +6,24 @@
    xmlns:vann="http://purl.org/vocab/vann/"
    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
 >
+  <rdf:Description rdf:nodeID="ncae38abf83ba4d328dfdd9c9da48eef6b47">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Review"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/fabio/ReviewArticle">
-    <rdfs:comment xml:lang="en">An article that contains a review.</rdfs:comment>
-    <rdfs:subClassOf rdf:nodeID="nc2534d39d31a404c8051419731cd4b5eb47"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
-    <rdfs:label xml:lang="en">review article</rdfs:label>
     <vs:term_status rdf:resource="http://purl.org/linked-data/registry#statusStable"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/fabio/"/>
     <vann:example>
         :my-review-article a fabio:ReviewArticle ;
             dcterms:title 'Review of the book 'Intelligent Agents 101''@en ;
             frbr:realizationOf :my-review ;
             dcterms:description 'An article containing a review.'@en .
     </vann:example>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/fabio/Article"/>
+    <rdfs:subClassOf rdf:nodeID="ncae38abf83ba4d328dfdd9c9da48eef6b47"/>
+    <rdfs:comment xml:lang="en">An article that contains a review.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="nc2534d39d31a404c8051419731cd4b5eb47">
-    <owl:onProperty rdf:resource="http://purl.org/vocab/frbr/core#realizationOf"/>
-    <owl:someValuesFrom rdf:resource="http://purl.org/spar/fabio/Review"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:label xml:lang="en">review article</rdfs:label>
   </rdf:Description>
 </rdf:RDF>

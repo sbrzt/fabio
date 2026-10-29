@@ -5,8 +5,8 @@
 >
   <rdf:Description rdf:about="http://purl.org/vocab/frbr/core#Manifestation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label xml:lang="en">manifestation</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/frbr/core#"/>
+    <rdfs:label xml:lang="en">manifestation</rdfs:label>
     <rdfs:comment xml:lang="en">
 The physical embodiment of an expression of a work.
 

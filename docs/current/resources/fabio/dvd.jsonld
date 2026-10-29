@@ -2,8 +2,8 @@
   {
     "@id": "http://purl.org/spar/fabio/dvd",
     "@type": [
-      "http://purl.org/spar/fabio/DigitalStorageMedium",
-      "http://www.w3.org/2002/07/owl#NamedIndividual"
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://purl.org/spar/fabio/DigitalStorageMedium"
     ],
     "http://purl.org/vocab/vann/example": [
       {
@@ -23,15 +23,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "DVD"
-      },
-      {
         "@language": "en",
         "@value": "digital versatile disc"
       },
       {
         "@language": "en",
         "@value": "digital video disc"
+      },
+      {
+        "@value": "DVD"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
